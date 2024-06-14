@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Weather/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Weather/js/main.js" type="module"></script>
+    <title>Weather</title>
+</head>
+
+<body>
+    <span class="text" id="tipTool">City no match</span>
+    <div class="wraper">
+        <select name="country" class="textSpan backGroundColorTop" id="country">
+            <option value="UA">Украина</option>
+            <option value="AT">Австрия</option>
+            <option value="FR">Франция</option>
+            <option value="GB">Ангилья</option>
+        </select>
+        <span class="textSpan backGroundColorTop">Город</span>
+        <div class="backGroundColorTop aligntCenterVert"> <input id="city" type="text" name="city" value="Одесса"></div>
+        <div class="logo  aligntCenterVert backGroundColorTop">
+            <select name="lang" class="lang backGroundColorTop" id="lang">
+                <option value="ru">Russian</option>
+                <option value="ua">Ukrainian</option>
+                <option value="en">English</option>
+
+
+            </select>
+        </div>
+
+        <div class="common" id="commonW">
+            <span class="text"></span><span class="text"></span>
+            <span class="text"></span><span class="text"></span>
+            <span class="text icon"></span><span class="text"></span>
+            <span class="text"></span><span class="text"></span>
+        </div>
+
+
+        <div class="forecast" id="foreCast">
+            <span class=" text" id="date">date str</span>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+            <di class="forecastCard">
+                <span class=" text">time</span>
+                <span class="text icon"></span>
+                <span class=" text">sany</span>
+                <span class=" text">temp</span>
+                <span class=" text">wind</span>
+            </di>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->

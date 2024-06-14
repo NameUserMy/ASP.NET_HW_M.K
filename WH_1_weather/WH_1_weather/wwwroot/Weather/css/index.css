@@ -1,0 +1,91 @@
+
+@import url(commonCard.css);
+@import url(forecastW.css);
+@import url(toolTip.css);
+html,
+body {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.wraper {
+    display: grid;
+    background-color: rgb(187, 186, 186);
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 25% 15% 15% 45%;
+    grid-template-rows: 7% 93%;
+    box-shadow:2px 5px 5px rgb(0, 0, 0) ;
+}
+
+.borderAll {
+    border: 1px solid black;
+}
+
+.textSpan {
+
+    text-align: center;
+    font-size: 1.5em;
+    align-content: center;
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+    user-select: none;
+
+}
+
+.logo {
+
+    background-image: url("https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
+
+}
+
+.backGroundColorTop {
+
+    background-color: rgb(94, 94, 94);
+}
+
+
+select {
+
+    border: none;
+    outline: none;
+    border: transparent;
+}
+
+option:active,
+select:focus {
+    border: none;
+    outline: none;
+    border: transparent;
+}
+
+input {
+    outline: none;
+    font-size: 1.5em;
+    border-radius: 7px;
+    width: 80%;
+    height: 70%;
+    background-color: transparent;
+
+}
+
+.aligntCenterVert {
+    align-content: center;
+
+}
+.lang{
+
+    text-align: center;
+    font-size: 1.2em;
+   
+    text-shadow: 0.3px 0.3px 0.3px rgb(156, 155, 155);
+    user-select: none;
+
+}

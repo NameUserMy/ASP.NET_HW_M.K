@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|e:\\kashag\\programming\\aspcore_ajax\\wh_1_weather\\wh_1_weather\\wwwroot\\weather\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|solutionrelative:wh_1_weather\\wwwroot\\weather\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|e:\\kashag\\programming\\aspcore_ajax\\wh_1_weather\\wh_1_weather\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|solutionrelative:wh_1_weather\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|e:\\kashag\\programming\\aspcore_ajax\\wh_1_weather\\wh_1_weather\\wwwroot\\weather\\css\\tooltip.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|solutionrelative:wh_1_weather\\wwwroot\\weather\\css\\tooltip.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|e:\\kashag\\programming\\aspcore_ajax\\wh_1_weather\\wh_1_weather\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|solutionrelative:wh_1_weather\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|e:\\kashag\\programming\\aspcore_ajax\\wh_1_weather\\wh_1_weather\\wwwroot\\weather\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6DA074EE-9125-40E5-A6DF-E018E2616BD1}|WH_1_weather\\WH_1_weather.csproj|solutionrelative:wh_1_weather\\wwwroot\\weather\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WH_1_weather\\wwwroot\\index.html",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\index.html",
+              "RelativeToolTip": "WH_1_weather\\wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-14T13:15:41.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\js\\main.js",
+              "RelativeDocumentMoniker": "WH_1_weather\\wwwroot\\Weather\\js\\main.js",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\js\\main.js",
+              "RelativeToolTip": "WH_1_weather\\wwwroot\\Weather\\js\\main.js",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-14T13:11:12.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\index.css",
+              "RelativeDocumentMoniker": "WH_1_weather\\wwwroot\\Weather\\css\\index.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\index.css",
+              "RelativeToolTip": "WH_1_weather\\wwwroot\\Weather\\css\\index.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T13:09:17.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "toolTip.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\toolTip.css",
+              "RelativeDocumentMoniker": "WH_1_weather\\wwwroot\\Weather\\css\\toolTip.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\toolTip.css",
+              "RelativeToolTip": "WH_1_weather\\wwwroot\\Weather\\css\\toolTip.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-14T13:09:15.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\Program.cs",
+              "RelativeDocumentMoniker": "WH_1_weather\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\Program.cs",
+              "RelativeToolTip": "WH_1_weather\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:05:58.616Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+
+.forecast {
+
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: 10% 45% 45%;
+    background-color: rgb(187, 186, 186);
+    width: 100%;
+    height: 100%;
+    
+   
+
+}
+
+.forecastCard{
+    display: grid;
+    grid-template-rows: repeat(5,calc(100%/5));
+    background-color: rgb(187, 186, 186);
+    width: 98%;
+    height: 98%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-right-radius: 5%;
+}
+
+#date{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+

@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\commonCard.css",
+      "PackagePath": "staticwebassets\\Weather\\css\\commonCard.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\forecastW.css",
+      "PackagePath": "staticwebassets\\Weather\\css\\forecastW.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\index.css",
+      "PackagePath": "staticwebassets\\Weather\\css\\index.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\css\\toolTip.css",
+      "PackagePath": "staticwebassets\\Weather\\css\\toolTip.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\js\\main.js",
+      "PackagePath": "staticwebassets\\Weather\\js\\main.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\js\\modules\\OWAPIRequest.js",
+      "PackagePath": "staticwebassets\\Weather\\js\\modules\\OWAPIRequest.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\Weather\\js\\modules\\render.js",
+      "PackagePath": "staticwebassets\\Weather\\js\\modules\\render.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\WH_1_weather\\WH_1_weather\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WH_1_weather.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WH_1_weather.props",
+      "PackagePath": "build\\WH_1_weather.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WH_1_weather.props",
+      "PackagePath": "buildMultiTargeting\\WH_1_weather.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WH_1_weather.props",
+      "PackagePath": "buildTransitive\\WH_1_weather.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
