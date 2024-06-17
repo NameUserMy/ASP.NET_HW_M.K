@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\fromtwentytohundredmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\fromtwentytohundredmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\fromeleventonineteenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\fromeleventonineteenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\fromonetotenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\fromonetotenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\onehundredtothousandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\onehundredtothousandextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_2_middleware\\hw_2_middleware\\onehundredtothousandmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7554B7CB-091E-42B1-BF4D-ADC4441A238C}|HW_2_MiddleWare\\HW_2_MiddleWare.csproj|solutionrelative:hw_2_middleware\\onehundredtothousandmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\Program.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\Program.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:56:59.73Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OneHundredToThousandExtensions.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\OneHundredToThousandExtensions.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\OneHundredToThousandExtensions.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\OneHundredToThousandExtensions.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\OneHundredToThousandExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T19:37:17.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FromOnetoTenMiddleWare.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromOnetoTenMiddleWare.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\FromOnetoTenMiddleWare.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromOnetoTenMiddleWare.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\FromOnetoTenMiddleWare.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwCIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T16:54:36.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FromElevenToNineteenMiddleware.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromElevenToNineteenMiddleware.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\FromElevenToNineteenMiddleware.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromElevenToNineteenMiddleware.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\FromElevenToNineteenMiddleware.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAlwCEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:01:16.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FromTwentyToHundredMiddleware.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromTwentyToHundredMiddleware.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\FromTwentyToHundredMiddleware.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\FromTwentyToHundredMiddleware.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\FromTwentyToHundredMiddleware.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:09:29.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OneHundredToThousandMiddleWare.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\OneHundredToThousandMiddleWare.cs",
+              "RelativeDocumentMoniker": "HW_2_MiddleWare\\OneHundredToThousandMiddleWare.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_2_MiddleWare\\HW_2_MiddleWare\\OneHundredToThousandMiddleWare.cs",
+              "RelativeToolTip": "HW_2_MiddleWare\\OneHundredToThousandMiddleWare.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:22:21.921Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
