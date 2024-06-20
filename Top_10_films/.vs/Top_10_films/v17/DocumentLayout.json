@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\views\\shared\\_tamplatemovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\views\\shared\\_tamplatemovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\wwwroot\\css\\moviescss\\head.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\wwwroot\\css\\moviescss\\head.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\wwwroot\\css\\moviescss\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\wwwroot\\css\\moviescss\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\wwwroot\\css\\indexmovies.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\wwwroot\\css\\indexmovies.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|e:\\kashag\\programming\\aspcore_ajax\\top_10_films\\top_10_films\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D725714-45D7-4639-94E0-7DB020A0C1E3}|Top_10_films\\Top_10_films.csproj|solutionrelative:top_10_films\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "head.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\MoviesCss\\head.css",
+              "RelativeDocumentMoniker": "Top_10_films\\wwwroot\\css\\MoviesCss\\head.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\MoviesCss\\head.css",
+              "RelativeToolTip": "Top_10_films\\wwwroot\\css\\MoviesCss\\head.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T14:45:59.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_TamplateMovie.cshtml",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Views\\Shared\\_TamplateMovie.cshtml",
+              "RelativeDocumentMoniker": "Top_10_films\\Views\\Shared\\_TamplateMovie.cshtml",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Views\\Shared\\_TamplateMovie.cshtml",
+              "RelativeToolTip": "Top_10_films\\Views\\Shared\\_TamplateMovie.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T13:24:15.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IndexMovies.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\IndexMovies.css",
+              "RelativeDocumentMoniker": "Top_10_films\\wwwroot\\css\\IndexMovies.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\IndexMovies.css",
+              "RelativeToolTip": "Top_10_films\\wwwroot\\css\\IndexMovies.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T13:13:32.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "card.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\MoviesCss\\card.css",
+              "RelativeDocumentMoniker": "Top_10_films\\wwwroot\\css\\MoviesCss\\card.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\wwwroot\\css\\MoviesCss\\card.css",
+              "RelativeToolTip": "Top_10_films\\wwwroot\\css\\MoviesCss\\card.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-20T12:27:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Top_10_films\\Controllers\\MoviesController.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Top_10_films\\Controllers\\MoviesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T11:52:04.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Top_10_films\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Top_10_films\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T12:59:24.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Program.cs",
+              "RelativeDocumentMoniker": "Top_10_films\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Top_10_films\\Top_10_films\\Program.cs",
+              "RelativeToolTip": "Top_10_films\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:42:01.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

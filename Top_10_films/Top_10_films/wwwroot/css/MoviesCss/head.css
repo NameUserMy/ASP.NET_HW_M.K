@@ -1,0 +1,34 @@
+
+
+.button {
+    min-width: fit-content;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: grey;
+    
+}
+
+.logo {
+    height: 100%;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    background-image: url("../../imgsrc/logo/icons.png");
+    background-size: contain;
+   
+}
+
+.slogon {
+    align-content: center;
+}
+
+.inlineDisplay {
+    display: inline-block;
+}
+
+.aliginContentCenter {
+    align-content: center;
+}

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Top_10_films</title>
+    <link rel="stylesheet" href="~/css/IndexMovies.css" asp-append-version="true" />
+   
+
+    <title>Film</title>
+</head>
+<body>
+    <header>
+       <h1 class="inlineDisplay" >Ten Movies</h1>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

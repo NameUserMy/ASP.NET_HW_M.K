@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Top_10_films.props" />
+</Project>

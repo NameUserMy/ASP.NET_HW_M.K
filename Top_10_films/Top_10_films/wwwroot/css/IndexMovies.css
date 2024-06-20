@@ -1,0 +1,40 @@
+@import url("MoviesCss/head.css");
+@import url("MoviesCss/card.css");
+@import url("MoviesCss/back.css");
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: aliceblue;
+    font-size: 14px;
+}
+
+
+
+header {
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top:0;
+    align-content: center;
+    text-align: center;
+    z-index:1;
+}
+
+
+.size100% {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    
+    height: 100%;
+    margin-top: 6%;
+    text-align: center;
+}
+

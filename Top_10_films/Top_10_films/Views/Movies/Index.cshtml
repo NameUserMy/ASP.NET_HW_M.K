@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Top_10_films.Models.CardMovie>
+
+
+@{
+
+    ViewData["Title"] = "Index";
+}
+
+@foreach (var info in Model)
+{
+    <div class="cardFilm borderR boxShadow">
+        <div class="poster rowSpan borderLR" style="background-image:url(@Html.DisplayFor(modelItem=>info.Poster)">
+        </div>
+        <div class=" rowSpan dispalayGrid gridTempRow">
+            <span class="info">
+                @Html.DisplayFor(modelItem => info.Title)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(modelItem => info.Year)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(modelItem => info.Genre)
+            </span>
+            <span class="info borderR description ">
+               
+                        @Html.DisplayFor(modelItem => info.Description)
+            </span>
+        </div>
+    </div>
+}
+
+   
+
+
+
+
