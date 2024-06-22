@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HW_4_Top_10_CRUD.props" />
+</Project>

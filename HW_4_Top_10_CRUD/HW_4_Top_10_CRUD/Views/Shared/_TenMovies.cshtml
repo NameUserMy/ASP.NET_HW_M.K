@@ -1,0 +1,31 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/ThenMovies.css" asp-append-version="true" />
+   
+    <title>@ViewData["Title"] - HW_4_Top_10_CRUD</title>
+</head>
+<body>
+    <header>
+        <div class=""></div>
+        <span class="slogon textShadow">TenMovies</span>
+        <div class="logoM"></div>
+        <span class="button buttonTru textShadow contentAlignCenter textAlignCenter">Войти</span>
+        <span class="button  textShadow contentAlignCenter textAlignCenter"> <a asp-controller="Add" asp-action="AddMovies">Добавить</a></span>
+        <span class="button  textShadow contentAlignCenter textAlignCenter"> <a asp-controller="Home" asp-action="Index">Домой</a></span>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+           
+    <footer><span> © The Super-puper Movies Site</span>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

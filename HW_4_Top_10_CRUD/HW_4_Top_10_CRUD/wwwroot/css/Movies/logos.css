@@ -1,0 +1,50 @@
+.logoM {
+    background-image: url("../../imgSrc/logo/icons.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    user-select: none;
+}
+
+.slogon {
+    height: 100%;
+    font-size: 25pt;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+}
+
+.inlineBlock{
+
+    display:inline-block;
+}
+
+.textAlignCenter{
+
+    text-align:center;
+}
+
+.contentAlignCenter{
+
+    align-content:center;
+
+}
+
+.textShadow {
+    text-shadow: 1px 1px 2px gray;
+}
+
+.button {
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+    align-self: center;
+    font-size: 20px;
+    user-select: none;
+    pointer-events: painted;
+}
+
+.buttonTru {
+    pointer-events: painted;
+}
+

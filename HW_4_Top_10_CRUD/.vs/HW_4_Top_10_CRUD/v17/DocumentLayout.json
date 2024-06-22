@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\css\\movies\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\css\\movies\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\css\\movies\\cardpagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\css\\movies\\cardpagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-22T20:23:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "card.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-22T18:44:21.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cardPagination.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-22T18:39:31.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:30:43.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Program.cs",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T18:26:24.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T18:23:08.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

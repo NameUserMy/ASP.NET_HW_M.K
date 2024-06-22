@@ -1,0 +1,91 @@
+.cardFilmP {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 0.5fr 0.5fr;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 1;
+    user-select: none;
+    transform-style: preserve-3d;
+    transform: perspective(1500px) rotateY(15deg) rotateX(10deg);
+    transition-property:all;
+    transition-duration:1s;
+    /*transform: perspective( 1500px);*/
+    margin-bottom: 5%;
+}
+
+    .cardFilmP:hover {
+        transform: perspective(1500px) rotateY(0deg) rotateX(0deg);
+    }
+
+
+    .posterP {
+        /*background-image: url(../imgSrc/posterts/GreenMile.jpg);*/
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+.rowSpan {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.dispalayGrid {
+    display: grid;
+}
+
+.gridTempRow {
+    grid-template-rows: repeat(3, 0.15fr);
+}
+
+
+
+.info {
+    font-size: 1.3fr;
+    text-align: center;
+    align-content: center;
+    border-bottom: 0.3px solid black;
+    width: 90%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.borderR {
+    border-radius: 8px;
+}
+
+.borderLR {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.boxShadow {
+    box-shadow: 3px 3px 5px black,-3px -3px 5px black;
+}
+
+.description {
+    resize: none;
+    cursor: copy;
+    user-select: none;
+    width: 90%;
+    min-height: 70%;
+    height: 70%;
+    margin-top:1%;
+    background-color: transparent;
+   /* border: 5px solid rgba(0,0,0,0.4);*/
+}
+
+#pagination {
+    
+    position: absolute;
+   /* transform: rotateY(60deg);*/
+    transform-style: preserve-3d;
+    height:80%;
+    width: 25%;
+    left: 1%;
+}

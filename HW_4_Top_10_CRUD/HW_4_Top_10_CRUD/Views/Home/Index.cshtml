@@ -1,0 +1,59 @@
+﻿@model List<HW_4_Top_10_CRUD.Models.Movie>
+
+@{
+    ViewData["Title"] = "TenMovies";
+    Layout = "_TenMovies";
+}
+<div class="forCard">
+    <div id="cardFilm" class="cardFilm borderR boxShadow">
+        <div class="poster rowSpan borderLR" style="background-image:url(@Html.DisplayFor(Model=>Model[0].PosterUrl)">
+        </div>
+        <div class=" rowSpan dispalayGrid gridTempRow">
+            <span class="info">
+                @Html.DisplayFor(Model=>Model[0].Title)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(Model => Model[0].Year)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(Model => Model[0].Genre)
+            </span>
+            <span class="info borderR description ">
+                @Html.DisplayFor(Model => Model[0].Description)
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="pagination">
+    @foreach (var info in Model)
+    {
+        <div class="cardFilmP borderR boxShadow">
+            <div class="posterP rowSpan borderLR" style="background-image:url(@Html.DisplayFor(modelItem=>info.PosterUrl)">
+            </div>
+            <div class=" rowSpan dispalayGrid gridTempRow">
+                <span class="info">
+                    @Html.DisplayFor(modelItem => info.Title)
+                </span>
+                <span class="info">
+                    @Html.DisplayFor(modelItem => info.Year)
+                </span>
+                <span class="info">
+                    @Html.DisplayFor(modelItem => info.Genre)
+                </span>
+                <span class="info borderR description ">
+
+                    @Html.DisplayFor(modelItem => info.Description)
+                </span>
+            </div>
+        </div>
+    }
+   
+
+
+</div>
+
+
+
+
+
