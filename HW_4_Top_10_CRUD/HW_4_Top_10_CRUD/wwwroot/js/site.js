@@ -1,8 +1,18 @@
 ﻿"use strict"
-
+let rawdata = { 'id': '2' };
 $(document).ready(() => {
 
 
+    
+    $.ajax({
+        type: "GET",
+        url: "/Home/Details/",
+        data: rawdata,
+        success: function (viewHTML) {
+            $("#forCard").html(viewHTML);
+        },
+        error: function (errorData) { onError(errorData); }
+    });
 
     $(`#posterForm`).on(`mouseenter`, (e) => {
 
@@ -25,11 +35,20 @@ $(document).ready(() => {
     });
 
 
-    $(`.cardFilmP`).on(`mousedown`, (e) => { 
-        console.log($(e.currentTarget).index())
-        console.log($(e.currentTarget).css(`backgroundImage`));
-        console.log($(`#cardFilm`).find(`div:first-child`).css(`backgroundImage`, `url(https://localhost:7203/imgSrc/posters/Ghostbusters.jpg)`));
-        console.log($(`#cardFilm`).find(`div:first-child`).css(`backgroundImage`));
+    $(`.cardFilmP`).on(`mousedown`, (e) => {
+        let src = $(e.currentTarget).find(`input:first-child`).val();
+
+          rawdata = { 'id': src};
+          $.ajax({
+              type: "GET",
+              url: "/Home/Details/",
+              data: rawdata,
+              success: function (viewHTML) {
+                  $("#forCard").html(viewHTML);
+              },
+              error: function (errorData) { onError(errorData); }
+          });
+         
     })
 
 

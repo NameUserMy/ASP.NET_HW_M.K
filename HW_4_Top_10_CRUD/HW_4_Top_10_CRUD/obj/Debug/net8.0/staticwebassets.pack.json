@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HW_4_Top_10_CRUD.bundle.scp.css",
-      "PackagePath": "staticwebassets\\HW_4_Top_10_CRUD.bundle.scp.css"
-    },
-    {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\addForm.css",
       "PackagePath": "staticwebassets\\css\\Movies\\addForm.css"
     },

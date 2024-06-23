@@ -31,7 +31,7 @@ namespace HW_4_Top_10_CRUD.Controllers
 
             if(uploadPoster is not null)
             {
-                pathSave = "/imgSrc/postert/"+uploadPoster.FileName;
+                pathSave = "/imgSrc/posters/" + uploadPoster.FileName;
 
                 using (var fileStream = new FileStream(_environment.WebRootPath + pathSave, FileMode.Create))
                 {

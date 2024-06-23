@@ -20,9 +20,7 @@ E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\n
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HW_4_Top_10_CRUD.props
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HW_4_Top_10_CRUD.props
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\staticwebassets.pack.json
-E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\scopedcss\bundle\HW_4_Top_10_CRUD.styles.css
-E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\scopedcss\projectbundle\HW_4_Top_10_CRUD.bundle.scp.css
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\HW_4_Top_10_CRUD.dll
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\refint\HW_4_Top_10_CRUD.dll
 E:\KASHAG\programming\ASPCORE_AJAX\HW_4_Top_10_CRUD\HW_4_Top_10_CRUD\obj\Debug\net8.0\HW_4_Top_10_CRUD.pdb

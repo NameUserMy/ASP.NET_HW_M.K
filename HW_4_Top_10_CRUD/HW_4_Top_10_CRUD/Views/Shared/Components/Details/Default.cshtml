@@ -1,0 +1,28 @@
+﻿@model AllInfoModelView
+
+@* @model Movie *@
+
+
+<div class="forCard">
+    <div class="cardFilm borderR boxShadow">
+        <div class="poster rowSpan borderLR" style="background-image:url()">
+        </div>
+        <div class=" rowSpan dispalayGrid gridTempRow">
+            <span class="info">
+                @Html.DisplayFor(Model=>Model.Title)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(Model=>Model.Year)
+            </span>
+            <span class="info">
+                @Html.DisplayFor(Model=>Model.Genre)
+            </span>
+            <span class="info borderR description ">
+                @Html.DisplayFor(Model=>Model.Description)
+            </span>
+        </div>
+    </div>
+</div>
+
+
+

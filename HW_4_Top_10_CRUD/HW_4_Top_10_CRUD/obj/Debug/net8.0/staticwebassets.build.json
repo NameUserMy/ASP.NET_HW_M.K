@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ucU+bI/opi8ZFIkN6TqKLtHRFHdYJh01pwfEk42ehsY=",
+  "Hash": "asP2PHbhy8Q/ZkVnaPZxlvi740hHar6Sge3xQGKpTyc=",
   "Source": "HW_4_Top_10_CRUD",
   "BasePath": "_content/HW_4_Top_10_CRUD",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HW_4_Top_10_CRUD.styles.css",
-      "SourceId": "HW_4_Top_10_CRUD",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/HW_4_Top_10_CRUD",
-      "RelativePath": "HW_4_Top_10_CRUD.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\bundle\\HW_4_Top_10_CRUD.styles.css"
-    },
-    {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HW_4_Top_10_CRUD.bundle.scp.css",
-      "SourceId": "HW_4_Top_10_CRUD",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/HW_4_Top_10_CRUD",
-      "RelativePath": "HW_4_Top_10_CRUD.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HW_4_Top_10_CRUD.bundle.scp.css"
-    },
     {
       "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\addForm.css",
       "SourceId": "HW_4_Top_10_CRUD",

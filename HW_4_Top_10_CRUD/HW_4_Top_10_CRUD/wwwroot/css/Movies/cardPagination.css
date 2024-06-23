@@ -2,7 +2,7 @@
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 0.5fr 0.5fr;
-    height: 30%;
+    height: 35%;
     width: 100%;
     position: relative;
     transition-property: opacity;
@@ -10,7 +10,7 @@
     opacity: 1;
     user-select: none;
     transform-style: preserve-3d;
-    transform: perspective(1500px) rotateY(15deg) rotateX(10deg);
+    transform: perspective(1500px) rotateY(15deg) rotateX(25deg);
     transition-property:all;
     transition-duration:1s;
     /*transform: perspective( 1500px);*/
@@ -23,7 +23,6 @@
 
 
     .posterP {
-        /*background-image: url(../imgSrc/posterts/GreenMile.jpg);*/
         background-repeat: no-repeat;
         background-size: contain;
     }
@@ -68,24 +67,13 @@
     box-shadow: 3px 3px 5px black,-3px -3px 5px black;
 }
 
-.description {
-    resize: none;
-    cursor: copy;
-    user-select: none;
-    width: 90%;
-    min-height: 70%;
-    height: 70%;
-    margin-top:1%;
-    background-color: transparent;
-   /* border: 5px solid rgba(0,0,0,0.4);*/
-}
+
 
 #pagination {
-    
     position: absolute;
-   /* transform: rotateY(60deg);*/
     transform-style: preserve-3d;
-    height:80%;
+    height: 100%;
     width: 25%;
     left: 1%;
+    
 }

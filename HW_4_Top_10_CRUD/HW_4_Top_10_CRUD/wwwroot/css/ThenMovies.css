@@ -14,7 +14,7 @@ html, body {
 header {
     position: fixed;
     display: grid;
-    grid-template-columns: 35% 15% 10% 5% 5% 30%;
+    grid-template-columns: 35% 15% 10% 5% 5% 5% 25%;
     background: linear-gradient(dimgray,gray,dimgray);
     width: 100%;
     height: 10%;

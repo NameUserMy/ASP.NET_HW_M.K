@@ -6,24 +6,27 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    transition-property: opacity;
-    transition-duration: 1s;
-    opacity: 1;
+    position: absolute;
     user-select: none;
+    left:25%;
+    top:13%;
+
 }
 
 .posterForm {
     border: 1px gray dashed;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image:url();
+    
     margin:2%;
     text-align:center;
     align-content:center;
     font-size:50px;
     color:rgba(128,128,128,0.5);
 }
+
+
+
 
 input[type="file"] {
     display: none;
@@ -33,29 +36,13 @@ input[type="file"] {
     display: none;
     cursor: pointer;
 }
-
-#test{
-
-
-    width:100%;
-    height:100%;
-
-}
-
-
-
-
-
-/*.rowSpan {
-    grid-row-start: 1;
-    grid-row-end: 3;
-}*/
 .dispalayGrid {
     display: grid;
 }
 
 .gridTempRow {
-    grid-template-rows: repeat(3, 0.15fr);
+    grid-template-rows: repeat(9, 0.15fr);
+    row-gap:1%;
 }
 
 
@@ -64,10 +51,11 @@ input[type="file"] {
     font-size: 1.3fr;
     text-align: center;
     align-content: center;
-    border-bottom: 0.3px solid black;
+    height:90%;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    font-size:20px;
 }
 
 
@@ -84,14 +72,5 @@ input[type="file"] {
     box-shadow: 3px 3px 5px black,-3px -3px 5px black;
 }
 
-.description {
-    resize: none;
-    cursor: copy;
-    user-select: none;
-    width: 90%;
-    min-height: 70%;
-    height: 70%;
-    margin-top: 1%;
-    background-color: transparent;
-    /* border: 5px solid rgba(0,0,0,0.4);*/
-}
+
+
