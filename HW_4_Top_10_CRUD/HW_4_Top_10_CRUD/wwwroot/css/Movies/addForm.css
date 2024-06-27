@@ -42,22 +42,25 @@ input[type="file"] {
 
 .gridTempRow {
     grid-template-rows: repeat(9, 0.15fr);
-    row-gap:1%;
+    row-gap:2%;
 }
-
-
-
 .info {
     font-size: 1.3fr;
     text-align: center;
     align-content: center;
-    height:90%;
-    width: 90%;
+    height:100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size:20px;
 }
 
+.field-group {
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .borderR {
     border-radius: 8px;

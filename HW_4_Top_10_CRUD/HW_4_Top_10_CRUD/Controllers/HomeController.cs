@@ -1,7 +1,6 @@
 ﻿using HW_4_Top_10_CRUD.Data;
 using HW_4_Top_10_CRUD.Models;
 using Microsoft.AspNetCore.Mvc;
-//using HW_4_Top_10_CRUD.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace HW_4_Top_10_CRUD.Controllers

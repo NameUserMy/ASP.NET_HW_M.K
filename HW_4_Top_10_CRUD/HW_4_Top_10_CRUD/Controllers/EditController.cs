@@ -31,7 +31,7 @@ namespace HW_4_Top_10_CRUD.Controllers
             modelView.Genre = src.Genre;
             modelView.Language = src.Language;
             modelView.PosterUrl = src.PosterUrl;
-            modelView.Year = src.Year;
+           // modelView.Year = src.Year;
             modelView.Runtime = src.Runtime;    
 
             return View(modelView);

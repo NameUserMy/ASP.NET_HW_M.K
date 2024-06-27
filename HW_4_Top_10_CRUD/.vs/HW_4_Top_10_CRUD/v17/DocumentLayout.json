@@ -3,48 +3,20 @@
   "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\shared\\_tenmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\shared\\_tenmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\css\\thenmovies.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\css\\thenmovies.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\css\\movies\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\css\\movies\\card.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\edit\\editmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\edit\\editmovie.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\controllers\\editcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\controllers\\editcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\controllers\\addcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\controllers\\addcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\wwwroot\\css\\movies\\cardpagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\wwwroot\\css\\movies\\cardpagination.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\views\\add\\addmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\views\\add\\addmovies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\models\\allinfomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\models\\allinfomodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_4_top_10_crud\\hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88474A92-4E85-446A-B4EB-5CEF5188AE9D}|HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD.csproj|solutionrelative:hw_4_top_10_crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,145 +26,57 @@
       "DocumentGroups": [
         {
           "DockedHeight": 398,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.js",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwDAAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-22T20:23:16.213Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T18:12:54.862Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThenMovies.css",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\ThenMovies.css",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\css\\ThenMovies.css",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\ThenMovies.css",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\css\\ThenMovies.css",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-23T23:13:25.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_TenMovies.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Shared\\_TenMovies.cshtml",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Shared\\_TenMovies.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Shared\\_TenMovies.cshtml",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Shared\\_TenMovies.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T23:13:08.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Home\\Details.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T23:00:54.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditController.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\EditController.cs",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Controllers\\EditController.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\EditController.cs",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\Controllers\\EditController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCIAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:55:48.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "AddController.cs",
               "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\AddController.cs",
               "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Controllers\\AddController.cs",
               "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Controllers\\AddController.cs",
               "RelativeToolTip": "HW_4_Top_10_CRUD\\Controllers\\AddController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwCYAAAA/AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T22:47:30.144Z"
+              "WhenOpened": "2024-06-25T08:57:12.475Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "cardPagination.css",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\cardPagination.css",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-23T22:40:01.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "card.css",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\wwwroot\\css\\Movies\\card.css",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-23T22:38:53.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditMovie.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Edit\\EditMovie.cshtml",
-              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Edit\\EditMovie.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Edit\\EditMovie.cshtml",
-              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Edit\\EditMovie.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T22:29:14.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Program.cs",
               "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Program.cs",
               "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Program.cs",
               "RelativeToolTip": "HW_4_Top_10_CRUD\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA3AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T18:26:24.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AllInfoModelView.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Models\\AllInfoModelView.cs",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Models\\AllInfoModelView.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Models\\AllInfoModelView.cs",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\Models\\AllInfoModelView.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAADwvwUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T08:25:39.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddMovies.cshtml",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Add\\AddMovies.cshtml",
+              "RelativeDocumentMoniker": "HW_4_Top_10_CRUD\\Views\\Add\\AddMovies.cshtml",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_4_Top_10_CRUD\\HW_4_Top_10_CRUD\\Views\\Add\\AddMovies.cshtml",
+              "RelativeToolTip": "HW_4_Top_10_CRUD\\Views\\Add\\AddMovies.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T15:53:32.873Z",
+              "EditorCaption": ""
             }
           ]
         }

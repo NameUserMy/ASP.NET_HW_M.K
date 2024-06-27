@@ -1,13 +1,14 @@
-﻿@model Movie
+﻿@model AllInfoModelView
 
 @{
 
     ViewData["Title"] = "Add Movies";
-    Layout = "_TenMovies";
-
 }
 
-<form name="uploadMovie" asp-action="UploadMovie" asp-controller="Add" method="post" enctype="multipart/form-data" class="addForm borderR boxShadow">
+
+
+
+<form asp-action="AddMovies" method="post" enctype="multipart/form-data" class="addForm borderR boxShadow">
     <div id="posterForm" class="posterForm rowSpan borderLR">
         <span id="PosterInfo">No poster</span>
         <label id="uploadPoster" for="file-upload">
@@ -16,14 +17,58 @@
         </label>
     </div>
     <div class=" rowSpan dispalayGrid gridTempRow">
-        <input class="info borderR" asp-for="Title" placeholder="Title" name="title" />
-        <input class="info borderR" asp-for="Description"placeholder="Description" name="description" />
-        <input class="info borderR" asp-for="Genre" placeholder="Genre" name="genre" />
-        <input class="info borderR" asp-for="Runtime"placeholder="Runtime" name="runtime" />
-        <input class="info borderR" asp-for="Director"placeholder="Director" name="director" />
-        <input class="info borderR" asp-for="Year" placeholder="Year" name="year" />
-        <input class="info borderR" asp-for="Actors"placeholder="Actors" name="actors" />
-        <input class="info borderR" asp-for="Language"placeholder="Language" name="language" />
-        <input class="info borderR" type="submit" value="Добавить" />
+        <span>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </span>
+        <div class="field-group">
+            <input class="info borderR" asp-for="Title" placeholder="Title" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Description" placeholder="Description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Genre" placeholder="Genre"  />
+            <span asp-validation-for="Genre" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Runtime"placeholder="Runtime"  />
+            <span asp-validation-for="Runtime" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Director"placeholder="Director"  />
+            <span asp-validation-for="Director" class="text-danger"></span>
+        </div>
+
+         <div class="field-group">
+            <input class="info borderR" asp-for="Year" placeholder="Year"  />
+            <span asp-validation-for="Year" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Actors"placeholder="Actors"  />
+            <span asp-validation-for="Actors" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR" asp-for="Language"placeholder="Language"/>
+            <span asp-validation-for="Language" class="text-danger"></span>
+        </div>
+        <div class="field-group">
+            <input class="info borderR" type="submit" value="Добавить" />
+        </div>
     </div>
+   
+   
 </form>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
