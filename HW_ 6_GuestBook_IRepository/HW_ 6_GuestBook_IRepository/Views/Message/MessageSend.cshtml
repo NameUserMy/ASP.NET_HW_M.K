@@ -1,0 +1,32 @@
+﻿@model ViewModelPublish;
+
+
+<form asp-action="MessageSend" class="FormPublish boxShadow borderR">
+   
+    <span class="info">
+        <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
+    </span>
+
+    <div class="field-group">
+        <input asp-for="Theme" placeholder="Theme max 15 simbol" class="info borderR" />
+        <span asp-validation-for="Theme" class="text-danger"></span>
+    </div>
+
+    <div id="area" class="field-group">
+        <textarea asp-for="Message" placeholder="Message max 150 simbol" class="info borderR " ></textarea>
+        <span asp-validation-for="Message" class="text-danger"></span>
+    </div>
+
+    <div class="field-group">
+        <span>
+            <input type="submit" value="Опубковать" class="info borderR" />
+        </span>
+    </div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

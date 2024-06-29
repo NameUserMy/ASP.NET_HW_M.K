@@ -1,0 +1,58 @@
+
+
+.flexContainerMessage {
+    display: flex;
+    width: 95%;
+    flex-direction:column;
+    
+    
+}
+
+.theme {
+    display: flex;
+    background-color: rgb(2, 122, 20);
+    height: 25%;
+    width: 100%;
+    color: white;
+    padding-left: 1%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 3px solid rgb(0, 33, 5);
+    border-bottom-style: inset;
+   
+}
+.boxShadow {
+    box-shadow: 3px 3px 5px rgb(2, 122, 20);
+}
+.containerInfo {
+    display: flex;
+    height: 80%;
+   
+}
+.userInfo {
+    width: 25%;
+    background-color: rgb(2, 122, 20);
+    padding: 1%;
+    height: 95%;
+    color: white;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.message {
+   
+    width: 75%;
+    height: 100%;
+    padding: 1%;
+}
+
+.borderTest{
+
+    border:solid 1px black;
+}
+

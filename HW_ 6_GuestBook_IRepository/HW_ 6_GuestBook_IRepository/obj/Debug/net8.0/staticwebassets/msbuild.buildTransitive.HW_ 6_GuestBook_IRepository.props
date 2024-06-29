@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\HW_ 6_GuestBook_IRepository.props" />
+</Project>

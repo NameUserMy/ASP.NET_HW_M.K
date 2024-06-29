@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_ 6_guestbook_irepository\\hw_ 6_guestbook_irepository\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|solutionrelative:hw_ 6_guestbook_irepository\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_ 6_guestbook_irepository\\hw_ 6_guestbook_irepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|solutionrelative:hw_ 6_guestbook_irepository\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_ 6_guestbook_irepository\\hw_ 6_guestbook_irepository\\wwwroot\\css\\guestbook\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8184D928-5F4C-4A31-B95C-48FE4E210B9C}|HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository.csproj|solutionrelative:hw_ 6_guestbook_irepository\\wwwroot\\css\\guestbook\\registrationform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HW_ 6_GuestBook_IRepository\\Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HW_ 6_GuestBook_IRepository\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T14:44:29.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "registrationForm.css",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\registrationForm.css",
+              "RelativeDocumentMoniker": "HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\registrationForm.css",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\registrationForm.css",
+              "RelativeToolTip": "HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\registrationForm.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-29T14:42:27.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\Program.cs",
+              "RelativeDocumentMoniker": "HW_ 6_GuestBook_IRepository\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\Program.cs",
+              "RelativeToolTip": "HW_ 6_GuestBook_IRepository\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:04:10.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+﻿
+@model ViewModelRegistration
+
+
+<form asp-action="UserRegistration" class="FormR borderR boxShadow">
+    <span class="info">
+        <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
+    </span>
+    
+    <div class="field-group">
+        <input asp-for="Login" placeholder="Login" class="info borderR" />
+        <span asp-validation-for="Login" class="text-danger"></span>
+    </div>
+    
+    <div class="field-group">
+        <input asp-for="Password" placeholder="Password" class="info borderR" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="field-group">
+        <input asp-for="ConfirmPassword" placeholder="Confirm pass" class="info borderR" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <div class="field-group">
+        <input asp-for="NickName" placeholder="NickName" class="info borderR" />
+        <span asp-validation-for="NickName" class="text-danger"></span>
+    </div>
+    <div class="field-group">
+        <span>
+            <input type="submit" value="Зарегистрироваться" class="info borderR" />
+        </span>
+    </div>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,93 @@
+
+@import url("GuestBook/message.css");
+@import url("GuestBook/registrationForm.css");
+@import url("GuestBook/logginForm.css");
+@import url("GuestBook/publishMessage.css");
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 0;
+
+}
+
+.sideBar {
+    border: 1px solid black;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(3, 161, 43,0.8);
+}
+
+section {
+    width: calc(100% - 20%);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    font-size: 15px;
+    
+}
+
+.messageContanier {
+    margin-top:5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:2%;
+    justify-items:center;
+}
+
+.menu{
+    padding-top:5%;
+    color:white
+}
+
+.button {
+    padding-left: 5%;
+    border-bottom: 2px solid rgb(2, 122, 20);
+    border-bottom-style: groove;
+    display:none;
+}
+
+
+    .button:hover {
+        transition-property: all;
+        transition-duration: 700ms;
+        text-shadow: 1px 1px 5px white;
+        color: rgba(3, 161, 43,0.8);
+    }
+
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.allBorder {
+    border: solid black 1px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.logginUser {
+    display:inline-block;
+    width:100%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color:rgb(2, 122, 20);
+    padding-left:10%;
+    margin-bottom:10%;
+}
+
+#pog{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    position:absolute;
+    left:50%;
+    bottom:20%;
+
+
+}

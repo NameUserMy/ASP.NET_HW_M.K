@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/GuestBookMain.css" asp-append-version="true" />
+   
+</head>
+<body>
+    <main>
+        <aside class="sideBar">
+            <div id="menu" class="menu">
+                <span id="user" class="logginUser">Вы вошли как  @Context.Session.GetString("login")</span>
+
+                <h2><a asp-action="Loggin" asp-controller="Loggin" class="button">Войти</a></h2>
+                <h2><a asp-action="Logout" asp-controller="Loggin" class="button">Выйти</a></h2>
+                <h2><a asp-action="UserRegistration" asp-controller="Registration" class="button">Регистрация</a></h2>
+                <h2><a asp-action="MessageSend" asp-controller="Message" class="button">Написать сообщение</a></h2>
+                <h2><a asp-action="Index" asp-controller="Home" class="button">Дом</a></h2>
+            </div>
+        </aside>
+        <section>
+            <div class="messageContanier">
+                @RenderBody()
+            </div>
+            
+        </section>
+       
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
