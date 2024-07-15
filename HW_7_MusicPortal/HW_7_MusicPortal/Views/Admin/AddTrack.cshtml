@@ -1,0 +1,37 @@
+﻿
+@model AddTrackViewModel
+@{
+    Layout = "_AdminLayOut";
+}
+<div class=" music-management">
+    
+    <form asp-action ="AddTrack" method="post" enctype="multipart/form-data" class="borderr form-Track font-setting-form">
+
+
+
+        <select class="elemet-setting" asp-for="Genre">
+            <option  value="" selected="selected">Cohise genre</option>
+            <option>Rock</option>
+        </select>
+
+        <select class="elemet-setting" asp-for="Category">
+            <option value="" selected="selected">Cohise categories</option>
+            <option>Hard-rock</option>
+        </select>
+
+        <select class="elemet-setting" asp-for="Performer">
+            <option value="" selected="selected">Cohise performer</option>
+            <option>AC-DC</option>
+        </select>
+
+        <select class="elemet-setting" asp-for="Album">
+            <option value="" selected="selected">Cohise Album</option>
+            <option>High Voltage</option>
+        </select>
+        <input class="elemet-setting"  type="file" name="uploadFile" />
+
+        <input type="button" value="Cencel" />        <input type="submit" value="Accept" />
+    </form>
+
+
+</div>

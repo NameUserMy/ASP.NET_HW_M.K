@@ -1,0 +1,31 @@
+﻿@model UserViewModel
+
+@{
+    Layout = "_AdminLayOut";
+}
+<div class="user-view font-settings-admin">
+    <div>
+        @foreach (var info in Model.NotConfirmUser)
+        {
+            <form class="user-management">
+                <label>@Html.DisplayFor(modelItem => info.NickName)</label>
+                <a asp-action="ConfirmUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="backColorGreen font-settings-admin" type="button" value="confirm" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="backColorRed font-settings-admin" type="button" value="Delete user" /> </a>
+            </form>
+
+        }
+    </div>
+    <div>
+        @foreach (var info in Model.ConfirmUser)
+        {
+            <form class="user-management">
+                <label> @Html.DisplayFor(modelItem => info.NickName)</label>
+                <a asp-action="BlockUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="backColorOrange font-settings-admin" type="button" value="block" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="backColorRed font-settings-admin" type="button" value="Delete user" /> </a>
+            </form>
+
+        }
+    </div>
+</div>
+
+

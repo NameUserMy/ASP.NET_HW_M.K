@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD93BF50-AD71-4F9B-82BA-1BD2D4C5B656}|MusicPortal.DAL\\MusicPortal.DAL.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\musicportal.dal\\ef\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD93BF50-AD71-4F9B-82BA-1BD2D4C5B656}|MusicPortal.DAL\\MusicPortal.DAL.csproj|solutionrelative:musicportal.dal\\ef\\portalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 398,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "HW_7_MusicPortal\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBoAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:18:11.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PortalContext.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\MusicPortal.DAL\\EF\\PortalContext.cs",
+              "RelativeDocumentMoniker": "MusicPortal.DAL\\EF\\PortalContext.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\MusicPortal.DAL\\EF\\PortalContext.cs",
+              "RelativeToolTip": "MusicPortal.DAL\\EF\\PortalContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T18:17:20.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Program.cs",
+              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Program.cs",
+              "RelativeToolTip": "HW_7_MusicPortal\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T17:53:52.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

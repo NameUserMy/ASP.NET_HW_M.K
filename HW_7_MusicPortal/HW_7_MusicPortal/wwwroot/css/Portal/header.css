@@ -1,0 +1,33 @@
+
+
+.head {
+    display: flex;
+    height: 100%;
+    
+}
+
+.user{
+    border :1px dashed red;
+}
+
+.font-Setting {
+    color: white;
+    font-size: 1.5em;
+    font-weight:500;
+}
+
+.logo {
+    border: 1px dashed red;
+}
+
+.head-menu {
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    gap:3%;
+    border: 1px dashed red;
+}
+
+.user,.logo,.head-menu {
+    flex-basis: 33.33%;
+}

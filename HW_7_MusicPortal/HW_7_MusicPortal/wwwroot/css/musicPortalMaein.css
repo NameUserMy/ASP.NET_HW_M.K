@@ -1,0 +1,75 @@
+
+
+@import url(Portal/MenuPortal.css);
+@import url(Portal/form-search.css);
+@import url(Portal/header.css);
+@import url(Portal/admin.css);
+@import url(Portal/musicManagement.css);
+@import url(Portal/FormTrack.css);
+
+html,body{
+    height:100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+}
+a:hover{
+    color:orange;
+}
+
+.padding-menu{
+ padding-left:3%;
+}
+
+.font-size-menu{
+    font-size:1.2em;
+    font-weight:400;
+}
+
+.general-background-color {
+    background-color: rgba(3, 161, 43,0.8);
+}
+
+.back-background-color {
+    background-color: rgb(128, 128, 128,0.5);
+}
+
+
+.mainPortal {
+    display: grid;
+    height:100%;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-columns: .2fr 1fr;
+    grid-template-areas: 
+        'header header'
+        'menu content'
+        'menu fotter';
+    grid-gap: 10px;
+    padding: 10px;
+  
+}
+
+.item1 {
+    grid-area: header;
+    border: 1px black solid;
+   
+}
+.item2 {
+    grid-area: menu;
+    border: 1px black solid;
+    
+}
+.item3 {
+    grid-area: content;
+    border: 1px black solid;
+}
+
+.item4 {
+    grid-area: fotter;
+    border: 1px black solid;
+
+}

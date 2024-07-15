@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HW_7_MusicPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/musicPortalMaein.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HW_7_MusicPortal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+      
+    </header>
+
+        <main class="mainPortal">
+        <header class="item1 font-Setting general-background-color ">
+                <div class="head">
+                <div class="user">You are logged in as @Context.Session.GetString("login")</div>
+                    <div class="logo">Logo</div>
+                <nav class="head-menu "><span><a asp-action="Loggin" asp-controller="Loggin">Entrer</a></span><span><a asp-action="UserRegistration" asp-controller="Registration">Registration</a></span></nav>
+                </div>
+            </header>
+        <aside class="item2 general-background-color">
+            <div class="mein-menu">
+               
+                 <form action="/" method="get">
+                    <input class="search" type="text" /> <input class="button" type="button" value="Поиск" />
+                </form>
+                    <dl>
+                        <dt>Rock</dt>
+                        <dd>rock'n'roll</dd>
+                        <dd>Hard rock</dd>
+
+                        <dt>Pop</dt>
+                        <dd>pop1</dd>
+                        <dd>pop2</dd>
+                    
+                        <dt>Blues</dt>
+                        <dd>Blues 1</dd>
+                        <dd>Blues 1</dd>
+                    </dl>
+                <span>Upload composition</span>
+
+              </div>
+            </aside>
+            <section class="item3">
+                @RenderBody()
+          @*   <form id="form1" runat="server">
+                <audio controls="controls"  id="audioplayer">
+                    <source src="https://localhost:7167/Music/Rock/AC-DC - Thunderstruck.mp3" type="audio/mpeg" />
+                    <!-- if one source fails (e.g. cause browser does not support file format) automatically tries next source -->
+                    <source src="SeeU.ogg" type="audio/ogg" />
+                    Your browser does not support the audio element.
+                </audio>
+
+                <audio controls="controls">
+                    <source src="https://localhost:7167/Music/Rock/AC-DC - T.N.T..mp3" type="audio/mpeg" />
+                </audio>
+
+            </form> *@
+            </section>
+        <footer class="item4 general-background-color">
+                fotterr
+            </footer>
+        </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

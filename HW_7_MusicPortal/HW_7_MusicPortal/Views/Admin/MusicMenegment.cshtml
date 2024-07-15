@@ -1,0 +1,68 @@
+﻿@model GenreFormViewModel
+
+
+@{
+    Layout = "_AdminLayOut";
+}
+<div class="music-management">
+
+    <form class="borderr form-admin font-setting-form" asp-action="AddGenre">
+       
+        <label class="elemet-setting">Add genre</label>
+        <input class="elemet-setting" asp-for="Genre" />
+
+        <label class="elemet-setting">Add categories</label>
+        <select class="elemet-setting" asp-for="OptionGenre">
+            <option value="" selected="selected" >Cohise genre</option>
+            <option>Rock</option>
+        </select>
+        <input class="elemet-setting" asp-for="Category" />
+
+        <label class="elemet-setting">Add performer or group</label>
+        <select class="elemet-setting" asp-for="OptionCategory" >
+            <option value="" selected="selected">Cohise categories</option>
+            <option>Hard-rock</option>
+        </select>
+        <input class="elemet-setting" asp-for="Performer" /> 
+
+
+        <label class="elemet-setting">Add album</label>
+        <select class="elemet-setting" asp-for="OptionPerformer">
+            <option value="" selected="selected">Cohise performer</option>
+            <option>AC-DC</option>
+        </select>
+        <input class="elemet-setting" asp-for="Album" />
+                
+                <input type="button" value="Cencel" />        <input type="submit" value="Accept" />
+            </form>
+
+   @*  <div class="item">
+        <div class="borderr">
+            <select>
+                <option>Blah</option>
+                <option>Blah1</option>
+            </select>
+            <input type="button" value="Addit" />
+            <input type="button" value="Delete" />
+        </div>
+        <div class="borderr">
+            <select>
+                <option>Blah</option>
+                <option>Blah1</option>
+            </select>
+            <input type="button" value="Addit" />
+            <input type="button" value="Delete" />
+        </div>
+        <div class="borderr">
+            <select>
+                <option>Blah</option>
+                <option>Blah1</option>
+            </select>
+            <input type="button" value="Addit" />
+            <input type="button" value="Delete" />
+            
+        </div>*@
+        
+   
+
+</div>

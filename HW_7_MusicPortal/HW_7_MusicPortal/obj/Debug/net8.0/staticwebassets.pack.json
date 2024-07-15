@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HW_7_MusicPortal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HW_7_MusicPortal.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Pop\\AC-DC - T.N.T..mp3",
+      "PackagePath": "staticwebassets\\Music\\Pop\\AC-DC - T.N.T..mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC - Thunderstruck.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC - Thunderstruck.mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\FormTrack.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\FormTrack.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\MenuPortal.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\MenuPortal.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\admin.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\form-search.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\form-search.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\header.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\header.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\musicManagement.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\musicPortalMaein.css",
+      "PackagePath": "staticwebassets\\css\\musicPortalMaein.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HW_7_MusicPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HW_7_MusicPortal.props",
+      "PackagePath": "build\\HW_7_MusicPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HW_7_MusicPortal.props",
+      "PackagePath": "buildMultiTargeting\\HW_7_MusicPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HW_7_MusicPortal.props",
+      "PackagePath": "buildTransitive\\HW_7_MusicPortal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

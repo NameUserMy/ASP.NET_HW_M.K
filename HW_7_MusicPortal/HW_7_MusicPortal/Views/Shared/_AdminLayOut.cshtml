@@ -1,0 +1,68 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HW_7_MusicPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/musicPortalMaein.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HW_7_MusicPortal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+    </header>
+
+    <main class="mainPortal">
+        <header class="item1 font-Setting general-background-color">
+            <div class="head">
+                <div class="user">You are logged in as Admin</div>
+                <div class="logo">Logo</div>
+                <div class="head-menu"><a asp-action="Index" asp-controller="Home">Home</a>
+            </div>
+        </header>
+        <aside class="item2 general-background-color">
+            <div class="mein-menu padding-menu font-size-menu">
+                <span>
+                    <a asp-action="Admin" asp-controller="Admin"> Info</a>
+                </span>
+                <span>
+                    <a asp-action="UserMenegment" asp-controller="Admin">User menegment</a>
+                </span>
+                <ul>
+                    <li>
+                        <a asp-action="MusicMenegment" asp-controller="Admin"> Music menegment</a>
+                        <ul>
+                            <li>
+                                <a asp-action="AddTrack" asp-controller="Admin"> Add Track</a>
+                            </li>
+                            <li>
+                                <a asp-action="AddTrack" asp-controller="Admin"> Edit Genre...</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <section class="item3 back-background-color">
+            @RenderBody()
+           
+        </section>
+        <footer class="item4 general-background-color">
+            fotterr
+        </footer>
+    </main>
+
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+
