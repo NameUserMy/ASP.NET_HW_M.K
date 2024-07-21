@@ -18,10 +18,10 @@
             <div class="head">
                 <div class="user">You are logged in as Admin</div>
                 <div class="logo">Logo</div>
-                <div class="head-menu"><a asp-action="Index" asp-controller="Home">Home</a>
+                <div class="head-menu"><a asp-action="Index" asp-controller="Home">Home</a></div>
             </div>
         </header>
-        <aside class="item2 general-background-color">
+        <aside class="item2 general-background-color  admin-menu">
             <div class="mein-menu padding-menu font-size-menu">
                 <span>
                     <a asp-action="Admin" asp-controller="Admin"> Info</a>
@@ -29,15 +29,20 @@
                 <span>
                     <a asp-action="UserMenegment" asp-controller="Admin">User menegment</a>
                 </span>
-                <ul>
-                    <li>
-                        <a asp-action="MusicMenegment" asp-controller="Admin"> Music menegment</a>
+                <ul >
+                    <li >
+
+                        <span>Music menegment</span>
+
                         <ul>
                             <li>
-                                <a asp-action="AddTrack" asp-controller="Admin"> Add Track</a>
+                                <a asp-action="AddTrack" asp-controller="Music"> Add Track</a>
                             </li>
                             <li>
-                                <a asp-action="AddTrack" asp-controller="Admin"> Edit Genre...</a>
+                                <a asp-action="AditGenre" asp-controller="Music"> Edit Genre...</a>
+                            </li>
+                            <li>
+                                <a asp-action="AddGenre" asp-controller="Music">Add genre </a>
                             </li>
                             
                         </ul>

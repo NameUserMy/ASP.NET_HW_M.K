@@ -1,0 +1,30 @@
+.back-color-button-Red {
+    background-color: red
+}
+
+.back-color-button-Green {
+    background-color: rgba(3, 161, 43,0.8);
+}
+
+.back-color-button-Orange {
+    background-color: orange;
+}
+
+
+.general-background-color {
+    background-color: rgba(3, 161, 43,0.8);
+}
+
+.back-background-color {
+    background-color: rgb(128, 128, 128,0.5);
+}
+
+font-color-general{
+
+    color:white;
+}
+
+li{
+
+    color:white;
+}

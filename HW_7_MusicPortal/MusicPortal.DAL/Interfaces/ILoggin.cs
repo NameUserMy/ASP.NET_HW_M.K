@@ -8,6 +8,7 @@ namespace MusicPortal.DAL.Interfaces
     {
         public Task<bool> IsLoginAsync(string login);
         public Task<User> GetUserByLogginAsync(string loggin);
+       
 
     }
 }

@@ -18,16 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Admin/AddTrack.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkVHJhY2suY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Admin/Admin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW4uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Admin/MusicMenegment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTXVzaWNNZW5lZ21lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Admin/UserMenegment.cshtml]
@@ -40,6 +32,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Loggin/Loggin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nZ2luXExvZ2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Music/AddGenre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcQWRkR2VucmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Music/AddTrack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcQWRkVHJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Music/AditGenre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcQWRpdEdlbnJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Registration/UserRegistration.cshtml]

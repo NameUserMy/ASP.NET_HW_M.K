@@ -8,12 +8,10 @@ namespace MusicPortal.DAL.Entities
 {
     public class Track
     {
-        public int id { get; set;}
+        public int Id { get; set;}
         public string? Title { get; set;}
-        public int PerformerId { get; set; }
-        public Performer? Performer { get; set; }
-        public int AlbumId { get; set; }
-        public Album? Album { get; set; }
-        public IEnumerable<Genre>? Tracks { get; set; }
+        public SourceTrack? Source { get; set;}
+        public IEnumerable<Performer>? Performers { get; set;}
+        
     }
 }

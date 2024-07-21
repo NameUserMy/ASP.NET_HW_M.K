@@ -13,5 +13,6 @@ namespace MusicPortal.BLL.Interfaces
         public void IsLoginAsync(string login);
         public void GetUserByLogginAsync(string loggin);
         public bool IsSuccessful(string pass);
+        public Task<bool> IsConfirm(string login);
     }
 }

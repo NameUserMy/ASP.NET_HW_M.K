@@ -6,9 +6,17 @@
 @import url(Portal/admin.css);
 @import url(Portal/musicManagement.css);
 @import url(Portal/FormTrack.css);
+@import url(Portal/card-info.css);
+@import url(Portal/general.css);
+@import url(Portal/registrationForm.css);
+@import url(Portal/logginForm.css);
+@import url(Portal/genreForm.css);
+@import url(Portal/tegHelperSort.css);
 
-html,body{
-    height:100%;
+
+html, body {
+    height: 100%;
+   
 }
 
 a {
@@ -30,13 +38,7 @@ a:hover{
     font-weight:400;
 }
 
-.general-background-color {
-    background-color: rgba(3, 161, 43,0.8);
-}
 
-.back-background-color {
-    background-color: rgb(128, 128, 128,0.5);
-}
 
 
 .mainPortal {
@@ -55,21 +57,19 @@ a:hover{
 
 .item1 {
     grid-area: header;
-    border: 1px black solid;
-   
 }
 .item2 {
     grid-area: menu;
-    border: 1px black solid;
+   
     
 }
 .item3 {
+    display:grid;
+    
     grid-area: content;
-    border: 1px black solid;
+    background-color:darkslategrey
 }
 
 .item4 {
     grid-area: fotter;
-    border: 1px black solid;
-
 }

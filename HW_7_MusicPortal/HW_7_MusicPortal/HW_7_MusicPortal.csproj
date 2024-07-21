@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="wwwroot\Music\Rock\HardRock\**" />
-    <Content Remove="wwwroot\Music\Rock\HardRock\**" />
-    <EmbeddedResource Remove="wwwroot\Music\Rock\HardRock\**" />
-    <None Remove="wwwroot\Music\Rock\HardRock\**" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Folder Include="Data\" />
     <Folder Include="wwwroot\Music\Any\" />
   </ItemGroup>
 

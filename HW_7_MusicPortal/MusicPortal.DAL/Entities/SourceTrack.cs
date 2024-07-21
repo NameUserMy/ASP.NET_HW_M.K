@@ -10,5 +10,7 @@ namespace MusicPortal.DAL.Entities
     {
         public int Id { get; set; }
         public string? Src { get; set; }
+        public int TrackId { get; set; }
+        public Track? Track { get; set; }
     }
 }

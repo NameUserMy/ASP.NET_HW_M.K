@@ -19,47 +19,27 @@
                 <div class="head">
                 <div class="user">You are logged in as @Context.Session.GetString("login")</div>
                     <div class="logo">Logo</div>
-                <nav class="head-menu "><span><a asp-action="Loggin" asp-controller="Loggin">Entrer</a></span><span><a asp-action="UserRegistration" asp-controller="Registration">Registration</a></span></nav>
+                <nav class="head-menu ">
+                    <span>
+                        <a asp-action="Loggin" asp-controller="Loggin">Entrer</a>
+                    </span>
+                    <span>
+                        <a asp-action="UserRegistration" asp-controller="Registration">Registration</a>
+                    </span>
+                    <span>
+                        <a asp-action="Index" asp-controller="Home">Home</a>
+                    </span>
+                </nav>
                 </div>
             </header>
         <aside class="item2 general-background-color">
             <div class="mein-menu">
-               
-                 <form action="/" method="get">
-                    <input class="search" type="text" /> <input class="button" type="button" value="Поиск" />
-                </form>
-                    <dl>
-                        <dt>Rock</dt>
-                        <dd>rock'n'roll</dd>
-                        <dd>Hard rock</dd>
-
-                        <dt>Pop</dt>
-                        <dd>pop1</dd>
-                        <dd>pop2</dd>
-                    
-                        <dt>Blues</dt>
-                        <dd>Blues 1</dd>
-                        <dd>Blues 1</dd>
-                    </dl>
-                <span>Upload composition</span>
-
-              </div>
-            </aside>
+                
+            </div>
+        </aside>
             <section class="item3">
                 @RenderBody()
-          @*   <form id="form1" runat="server">
-                <audio controls="controls"  id="audioplayer">
-                    <source src="https://localhost:7167/Music/Rock/AC-DC - Thunderstruck.mp3" type="audio/mpeg" />
-                    <!-- if one source fails (e.g. cause browser does not support file format) automatically tries next source -->
-                    <source src="SeeU.ogg" type="audio/ogg" />
-                    Your browser does not support the audio element.
-                </audio>
-
-                <audio controls="controls">
-                    <source src="https://localhost:7167/Music/Rock/AC-DC - T.N.T..mp3" type="audio/mpeg" />
-                </audio>
-
-            </form> *@
+         
             </section>
         <footer class="item4 general-background-color">
                 fotterr

@@ -1,9 +1,4 @@
 ﻿using MusicPortal.DAL.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MusicPortal.DAL.Interfaces
 {
@@ -12,5 +7,18 @@ namespace MusicPortal.DAL.Interfaces
         public Task <IEnumerable<User>> GetConfirmUser();
         public Task<IEnumerable<User>> GetNotConfirmUser();
 
+        #region Get Method
+        public Task<IEnumerable<Genre>> GetAllGenreAsync();
+        public Task<Genre> GetGenreAsync(int idGenre);
+        public Task<IEnumerable<Performer>> GetAllPerformerAsync();
+        public Task<IEnumerable<Category>> GetAllCategoryAsync();
+        public Task<IEnumerable<Album>> GetAllAlbumAsync();
+        public Task<IEnumerable<SourceTrack>> GetAllSrcTrackAsync();
+        public Task<IEnumerable<Performer>> GetInfoForTrack();
+
+        #endregion
+
+
+        public Task<IEnumerable<SourceTrack>> GetInfoTrackByLikeAsync(string like);
     }
 }

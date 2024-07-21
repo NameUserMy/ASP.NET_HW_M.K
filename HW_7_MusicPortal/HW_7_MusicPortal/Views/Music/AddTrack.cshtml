@@ -1,0 +1,57 @@
+﻿
+@model AddTrackViewModel
+@{
+    Layout = "_AdminLayOut";
+}
+<div class=" music-management">
+    
+    <form asp-action ="AddTrack" method="post" enctype="multipart/form-data" class="borderr form-Track font-setting-form">
+
+        <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
+        <div class="field-group elemet-setting">
+            <select  asp-for="GenreId" asp-items="Model.Genre">
+                <option  value="" selected="selected">Cohise genre</option>
+            </select>
+            <span asp-validation-for="GenreId" ></span>
+        </div>
+
+        <div class="field-group elemet-setting">
+            <select asp-for="CategoryId" asp-items="Model.Category">
+                <option value="" selected="selected">Cohise categories</option>
+            </select>
+            <span asp-validation-for="CategoryId"></span>
+        </div>
+       
+
+        <div class="field-group elemet-setting">
+            <select asp-for="PerformerId" asp-items="Model.Performer">
+                <option value="" selected="selected">Cohise performer</option>
+            </select>
+            <span asp-validation-for="PerformerId"></span>
+        </div>
+        
+
+        <div class="field-group elemet-setting">
+            <select  asp-for="AlbumId" asp-items="Model.Album">
+                <option value="" selected="selected" >Cohise Album</option>
+            </select>
+            <span asp-validation-for="AlbumId"></span>
+
+        </div>
+        
+
+        <label for="file-upload" class="file-button elemet-setting">
+           DownLoad composition
+        </label>
+        <input id="file-upload" type="file" name="uploadFile" />
+
+        <input type="button" value="Cencel" />        <input class="back-color-button-Green" type="submit" value="Accept" />
+    </form>
+
+
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

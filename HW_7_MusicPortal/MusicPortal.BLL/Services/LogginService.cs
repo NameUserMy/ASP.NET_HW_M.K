@@ -54,5 +54,10 @@ namespace MusicPortal.BLL.Services
             }
             return true;
         }
+
+        public async Task<bool> IsConfirm(string login)
+        {
+            return _DB.Loggin.GetUserByLogginAsync(login).Result.Confirmation;
+        }
     }
 }

@@ -1,0 +1,51 @@
+.FormR {
+    display: grid;
+    height: 600px;
+    grid-template-rows: repeat(6,50px);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    row-gap: 5%;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.info {
+    font-size: 1.3fr;
+    text-align: center;
+    align-content: center;
+    height:100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+}
+
+.field-group {
+    height: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.borderR {
+    border-radius: 8px;
+    border-color: rgb(2, 122, 20);
+}
+
+
+.boxShadow {
+    box-shadow: 3px 3px 5px rgb(2, 122, 20), -3px -3px 5px rgb(2, 122, 20);
+}
+input {
+    background-color: white;
+    color: orange;
+}
+
+input::placeholder {
+    color: orange;
+}
+
+
+

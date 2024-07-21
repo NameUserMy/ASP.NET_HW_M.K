@@ -9,6 +9,7 @@ namespace MusicPortal.DAL.Interfaces
         public IRegistration Registration { get; }
         public ILoggin Loggin { get; }
         public CradAbstractBase UserCrad { get; }
+        public IMusicCrud MusicCrudRepository { get; }
         public IInformation Information { get; }
         public Task SaveAsync();
     }

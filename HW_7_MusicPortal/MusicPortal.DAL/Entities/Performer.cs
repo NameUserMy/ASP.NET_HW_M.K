@@ -12,9 +12,9 @@ namespace MusicPortal.DAL.Entities
         public string? Name { get; set; }
         public string? Description { get; set; }
         public IEnumerable<Genre>? Genres { get; set; }
-        public IEnumerable<Album>? Albums { get; set; }
         public IEnumerable<Track>? Tracks { get; set; }
-
+        public IEnumerable<Album>? Albums { get; set; }
+        public IEnumerable<Category>? Categories  { get; set; }
 
     }
 }

@@ -1,0 +1,59 @@
+﻿@model GenreViewModel
+
+
+@{
+    Layout = "_AdminLayOut";
+}
+<div class="music-management">
+
+    <form class="genre-form boxShadow borderR font-setting-form" asp-action="AddGenre">
+
+        <span class="info">
+            <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
+        </span>
+
+        <div class="field-group">
+            <input placeholder="Genre" class="info borderR" asp-for="Genre" />
+            <span asp-validation-for="Genre" class="text-danger"></span>
+
+        </div>
+
+        <select class="info borderR field-group" asp-for="OptionGenre" asp-items="Model.GenriL">
+        <option value="" selected="selected" >Cohise genre</option>
+            
+        </select>
+        <div class="field-group">
+            <input placeholder="Category" class="info borderR" asp-for="Category" />
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+
+        <select class="info borderR field-group" asp-for="OptionCategory" asp-items="Model.CategoryL">
+            <option value="" selected="selected">Cohise categories</option>
+            
+        </select>
+        <div class="field-group">
+            <input placeholder="Performer" class="info borderR" asp-for="Performer" />
+            <span asp-validation-for="Performer" class="text-danger"></span>
+        </div>
+
+        
+        <select class="info borderR field-group" asp-for="OptionPerformer" asp-items="Model.PerformerL">
+            <option value="" selected="selected">Cohise performer</option>
+        </select>
+
+        <div class="field-group">
+            <input placeholder="Album" class="info borderR" asp-for="Album" />
+            <span asp-validation-for="Album" class="text-danger"></span>
+        </div>
+
+        <div class="field-group">
+            <input class="info borderR back-color-button-Green" type="submit" value="Accept" />
+        </div>
+        <span></span>
+    </form>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -9,16 +9,6 @@
     display:flex;
 }
 
-.card-info{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-}
-
-.allborder {
-    border: solid 1px yellow;
-}
-
 .user-view{
     display:flex;
     flex-direction:row;
@@ -43,18 +33,25 @@
     font-weight:500;
 }
 
-
-
-.backColorRed{
-    background-color:red
-
+.heder-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    text-shadow: -4px 1px 1px black;
+    font-weight: 1000;
 }
-.backColorGreen {
-    background-color: rgba(3, 161, 43,0.8);
+
+.admin-menu {
+
+    box-shadow: 1.5px 2px 2px orange;
+    text-shadow: -2px 1px 1px black;
+    font-weight:600;
+    border-radius:8px;
+    font-size:1.5em;
+    padding-top:5%;
 }
 
-.backColorOrange {
-    background-color: orange;
-}
 
 

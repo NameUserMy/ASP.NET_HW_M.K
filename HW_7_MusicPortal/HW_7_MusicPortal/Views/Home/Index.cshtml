@@ -1,5 +1,29 @@
-﻿@{
+﻿@model TrackViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 
+<div class="track-contener  allborder">
+
+
+
+
+    <genre-pagination page-action="Index" Pagination="Model"></genre-pagination>
+    @foreach (var item in Model.SrcTrack)
+    {
+        <div class="track-view allborder">
+            <div class="performer-track">
+                <span> @item.performer</span><br />
+                <span> @item.Title</span>
+            </div>
+            <audio controls="controls">
+                <source src="@item.Src" type="audio/mpeg" />
+            </audio>
+        </div>
+    }
+</div>
+
+
+   

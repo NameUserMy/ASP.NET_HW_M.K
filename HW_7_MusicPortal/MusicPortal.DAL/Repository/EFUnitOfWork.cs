@@ -8,7 +8,8 @@ namespace MusicPortal.DAL.Repository
     {
         private RegistrationRepository? _reg ;
         private LogginRepository? _loggin;
-        private UserCrudReposytory? _userCrudReposytory;
+        private UserCrudRepository? _userCrudReposytory;
+        private MusicCrudRepository? _musicCrudReposytory;
         private InfoRepository? _infoRepository;    
         private readonly PortalContext? _DB;
         public EFUnitOfWork(PortalContext context) {
@@ -51,7 +52,7 @@ namespace MusicPortal.DAL.Repository
 
                 if (_userCrudReposytory == null)
                 {
-                    _userCrudReposytory = new UserCrudReposytory(_DB);
+                    _userCrudReposytory = new UserCrudRepository(_DB);
 
                 }
 
@@ -72,6 +73,25 @@ namespace MusicPortal.DAL.Repository
 
                 return _infoRepository;
             }
+
+        }
+
+        public IMusicCrud MusicCrudRepository {
+
+
+
+            get
+            {
+                if (_musicCrudReposytory == null)
+                {
+                    _musicCrudReposytory = new MusicCrudRepository(_DB);
+                }
+
+                return _musicCrudReposytory;
+
+            }
+
+
 
         }
 

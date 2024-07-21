@@ -13,5 +13,6 @@ namespace MusicPortal.DAL.Interfaces
         public Task<bool> IsLoginAsync(string login);
         public Task<bool> IsNickNameAsync(string nickName);
         public void AddUserAsync(User user);
+       
     }
 }

@@ -1,0 +1,32 @@
+﻿@model EditGenreViewModel
+
+@{
+    Layout = "_AdminLayOut";
+}
+
+<div class="eddit-genre-contener size-contener">
+
+    @foreach (var item in Model.Genre)
+    {
+        <form asp-action="ConFirm" class="size-ifo">
+            <div class="card-info size-ifo">
+                <div class="header-info size-ifo">Genre</div>
+                <div class="content-info">
+                    <input asp-for="GenreId" hidden value="@item.Id" />
+                    <input asp-for="GenreTitel" class="textInput" value="@item.Title" readonly /><br/>
+                    <input class="back-color-button-Green font-color-general" type="submit" value="Confirm" />
+                    <a asp-action="DeleteGenre" asp-controller="Music" asp-route-id="@item.Id"><input type="button" class="back-color-button-Red" value="Delete" /></a>
+                </div>
+                <div class="footer-info size-footer">
+                </div>
+            </div>
+        </form>
+        
+    }   
+    
+
+   
+
+   
+
+</div>

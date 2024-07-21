@@ -25,13 +25,21 @@ namespace HW_7_MusicPortal.Controllers
         }
 
 
+
+        [AcceptVerbs("Get", "Post")]
+        public async Task<IActionResult> CheckLogin(string login)
+        {
+            return Json(await _logginService.IsConfirm(login));
+
+        }
+
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Loggin(ViewModelLoggin userLoggin)
         {
-
-
-
+        
             _logginService.IsLoginAsync(userLoggin.Login);
             _logginService.GetUserByLogginAsync(userLoggin.Login);
       

@@ -1,5 +1,4 @@
 using HW_7_MusicPortal.Services;
-using Microsoft.EntityFrameworkCore;
 using MusicPortal.BLL.Infrastructure;
 using MusicPortal.BLL.Interfaces;
 using MusicPortal.BLL.Services;

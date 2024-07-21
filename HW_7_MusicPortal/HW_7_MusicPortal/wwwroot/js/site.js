@@ -1,4 +1,16 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(document).ready(() => {
 
-// Write your JavaScript code.
+
+
+   
+
+
+
+    $(`.textInput`).on(`focus`, (e) => {
+        $(e.currentTarget).removeAttr("readonly");
+    })
+    $(`.textInput`).on(`focusout`, (e) => {
+        $(e.currentTarget).attr("readonly","true");
+    })
+   
+});
