@@ -1,114 +1,141 @@
 ﻿using HW_7_MusicPortal.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.Routing;
+using Microsoft.AspNetCore.Mvc.TagHelpers;
 using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using System.Text.Encodings.Web;
 
 namespace HW_7_MusicPortal.TegHelper
 {
-    public class GenrePaginationTagHelper:TagHelper
+    public  class GenrePaginationTagHelper:TagHelper
     {
+
         
-        
-        private IUrlHelperFactory? _urlHelperFactory;
+        protected TagBuilder? listPagination;//for pagination list(ul tag)
+
+        protected TagBuilder? liPaginationLink; //for pagination list(li tag)
+        protected TagBuilder? APaginationLink; //for pagination list(a tag)
+
+
+        protected TagBuilder? listLinkfilter;// for link filter (ul tag)
+        protected TagBuilder? liFilterLink;//li for link filtration (li tag)
+        protected TagBuilder? aFilterHref;// a for link filtration (a tag)
+
+        protected TagBuilder? aPaginationOrdrBy;
+
+
+
+        protected IUrlHelperFactory? _urlHelperFactory;
+        protected IUrlHelper? urlHelper;
 
         public GenrePaginationTagHelper(IUrlHelperFactory helperFactory)
         {
             _urlHelperFactory = helperFactory;
+            listPagination = new TagBuilder("ul");
+            listLinkfilter = new TagBuilder("ul");
+            aPaginationOrdrBy = new TagBuilder("a");
 
         }
         [ViewContext]
         public ViewContext ViewContext { get; set; } = null!;
-        public TrackViewModel Pagination { get; set; }
+        public virtual TrackViewModel Pagination { get; set; }
         public string PageAction {  get; set; }
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
-
-          
-
-
-            IUrlHelper urlHelper = _urlHelperFactory.GetUrlHelper(ViewContext);
+            urlHelper = _urlHelperFactory.GetUrlHelper(ViewContext);
+            
             output.TagName = "div";
-            TagBuilder tagUl = new TagBuilder("ul");
-            tagUl.AddCssClass("TagHelperPagination");
-            TagBuilder liGnre;
-            TagBuilder aGnre;
+            output.AddClass("card-filter",HtmlEncoder.Default);
+            listPagination?.AddCssClass("TagHelperPagination pagination-filter");
+            listLinkfilter?.AddCssClass("filter list-none-marker");
+            AllPagination(output, Pagination.GenresLink.HasPreviousPage, Pagination.GenresLink.NextPage, Pagination.GenresLink.PageNumber,"page");
+        }
+        protected virtual TagBuilder PoginationHelper(IUrlHelper urlHelper,int pageNumber,int pageViewNumber,string paramName)
+        {
 
-           
+            liPaginationLink = new TagBuilder("li");
+            APaginationLink = new TagBuilder("a");
+
+            if (pageNumber == pageViewNumber) {
+                liPaginationLink.InnerHtml.Append(pageNumber.ToString());
+               
+            }
+            else 
+            {
+                APaginationLink.Attributes["href"] = urlHelper.Action(PageAction)+$"?{paramName}={pageNumber}";
+                liPaginationLink.InnerHtml.Append(pageNumber.ToString());
+            }
+
+
+            APaginationLink.InnerHtml.AppendHtml(liPaginationLink);
+
+            return APaginationLink;
+        }
+        protected virtual TagBuilder LinkForFilter()
+        {
 
             foreach (var item in Pagination.Genres)
             {
-                liGnre = new TagBuilder("li");
-                aGnre = new TagBuilder("a");
-                aGnre.Attributes["href"] = urlHelper.Action(PageAction, new { sort = item.Title});
-                aGnre.InnerHtml.Append(item.Title);
-                liGnre.InnerHtml.AppendHtml(aGnre);
-                tagUl.InnerHtml.AppendHtml(liGnre);
+                liFilterLink = new TagBuilder("li");
+                aFilterHref = new TagBuilder("a");
+                aFilterHref.Attributes["href"] = urlHelper.Action(PageAction, new { sort = item.Title });
+                aFilterHref.InnerHtml.Append(item.Title);
+                liFilterLink.InnerHtml.AppendHtml(aFilterHref);
+                listLinkfilter.InnerHtml.AppendHtml(liFilterLink);
 
 
             }
 
-
-            TagBuilder currentItem = ListHelper(urlHelper,Pagination.GenresLink.PageNumber);
-            
-            if (Pagination.GenresLink.HasPreviousPage)
-            {
-                TagBuilder previous = ListHelper(urlHelper, Pagination.GenresLink.PageNumber - 1);
-                tagUl.InnerHtml.AppendHtml(previous);
-
-            }
-            tagUl.InnerHtml.AppendHtml(currentItem);
-
-          
-
-
-            if (Pagination.GenresLink.NextPage)
-            {
-
-                TagBuilder nextPrev = ListHelper(urlHelper, Pagination.GenresLink.PageNumber + 1);
-                tagUl.InnerHtml.AppendHtml(nextPrev);
-
-            }
-           
-            output.Content.AppendHtml(tagUl);
-            
-            base.Process(context, output);
+            return listLinkfilter;
         }
-
-
-        private TagBuilder ListHelper(IUrlHelper urlHelper,int pageNumber)
+        protected virtual void AllPagination(TagHelperOutput output, bool HasPreviousPage,bool NextPage,int PageNumber, string paramName)
         {
 
-            TagBuilder tagLi = new TagBuilder("li");
-            TagBuilder tagA=new TagBuilder("a");
+            TagBuilder currentItem = PoginationHelper(urlHelper, PageNumber, PageNumber, paramName);
 
-            if (pageNumber ==Pagination.GenresLink?.PageNumber) {
+            if (HasPreviousPage)
+            {
+                TagBuilder previous = PoginationHelper(urlHelper, PageNumber - 1, PageNumber, paramName);
+                listPagination.InnerHtml.AppendHtml(previous);
 
-                
-                tagLi.InnerHtml.Append(pageNumber.ToString());
-                tagLi.AddCssClass("activli");
+            }
+            listPagination.InnerHtml.AppendHtml(currentItem);
 
+            if (NextPage)
+            {
+
+                TagBuilder nextPrev = PoginationHelper(urlHelper, PageNumber + 1, PageNumber, paramName);
+                listPagination.InnerHtml.AppendHtml(nextPrev);
+
+            }
+
+            output.Content.AppendHtml(LinkForFilter());
+
+
+
+
+            if ((bool)Pagination.OrderBy)
+            {
+                aPaginationOrdrBy.AddCssClass("order-by");
+                Pagination.OrderBy = false;
 
             }
             else
             {
-
-                tagA.Attributes["href"] = urlHelper.Action(PageAction, new {page = pageNumber });
-                tagA.InnerHtml.Append(pageNumber.ToString());
-
+                Pagination.OrderBy = true;
+                aPaginationOrdrBy.AddCssClass("order-by-down");
             }
 
-            tagLi.AddCssClass("liAny");
-            tagLi.InnerHtml.AppendHtml(tagA);
+            aPaginationOrdrBy.Attributes["href"] = urlHelper.Action(PageAction, new { order = Pagination.OrderBy });
+            listPagination.InnerHtml.AppendHtml(aPaginationOrdrBy);
+            output.Content.AppendHtml(listPagination);
 
-            
 
-            return tagLi;
+
         }
-
-
 
 
     }

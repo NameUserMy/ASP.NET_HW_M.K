@@ -14,14 +14,14 @@
     </header>
 
     <main class="mainPortal">
-        <header class="item1 font-Setting general-background-color">
+        <header class="item1 font-Setting general-background-color admin-border">
             <div class="head">
                 <div class="user">You are logged in as Admin</div>
                 <div class="logo">Logo</div>
                 <div class="head-menu"><a asp-action="Index" asp-controller="Home">Home</a></div>
             </div>
         </header>
-        <aside class="item2 general-background-color  admin-menu">
+        <aside class="item2 general-background-color admin-menu admin-border">
             <div class="mein-menu padding-menu font-size-menu">
                 <span>
                     <a asp-action="Admin" asp-controller="Admin"> Info</a>
@@ -39,23 +39,28 @@
                                 <a asp-action="AddTrack" asp-controller="Music"> Add Track</a>
                             </li>
                             <li>
-                                <a asp-action="AditGenre" asp-controller="Music"> Edit Genre...</a>
-                            </li>
-                            <li>
                                 <a asp-action="AddGenre" asp-controller="Music">Add genre </a>
                             </li>
+                            <li>
+                                <a asp-action="AditGenre" asp-controller="Music"> Edit Genre...</a>
+                            </li>
+
+                            <li>
+                                <a asp-action="EditTrack" asp-controller="Music"> Edit Track</a>
+                            </li>
+                           
                             
                         </ul>
                     </li>
                 </ul>
             </div>
         </aside>
-        <section class="item3 back-background-color">
+        <section class="item3 back-background-color admin-border">
             @RenderBody()
            
         </section>
-        <footer class="item4 general-background-color">
-            fotterr
+        <footer class="item4 general-background-color admin-border font-settings-admin align-admin-center">
+            &#9400  Meloman Portal
         </footer>
     </main>
 

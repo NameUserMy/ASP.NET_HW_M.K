@@ -83,7 +83,11 @@ namespace MusicPortal.BLL.Services
             await DB.MusicCrudRepository.UpdateGenreAsync(new Genre { Id=genre.Id,Title=genre.Title});
             await DB.SaveAsync();
         }
-        
+        public async Task UpdateTrackkAsync(TrackDTO track)
+        {
+            await DB.MusicCrudRepository.UpdateTrackkAsync(new Track { Id = track.Id, Title = track.Title });
+            await DB.SaveAsync();
+        }
         public Task UpdateAlbumAsync(CreateGenreDTO album)
         {
             throw new NotImplementedException();
@@ -102,11 +106,19 @@ namespace MusicPortal.BLL.Services
         {
             await DB.MusicCrudRepository.UpdateSrcExcute(srcOld,srcNew);
         }
-
+        #region Delete Method
         public async Task DeleteGenreAsync(int id)
         {
            await DB.MusicCrudRepository.DeleteGenreAsync(id);
            await DB.SaveAsync();
         }
+
+        public async Task DeleteTrackAsync(int id)
+        {
+            await DB.MusicCrudRepository.DeleteTrackAsync(id);
+            await DB.SaveAsync();
+        }
+        #endregion
+
     }
 }

@@ -1,4 +1,4 @@
-﻿using HW_7_MusicPortal.Models;
+﻿using HW_7_MusicPortal.Models.FormModels;
 using Microsoft.AspNetCore.Mvc;
 using MusicPortal.BLL.Interfaces;
 
@@ -72,7 +72,7 @@ namespace HW_7_MusicPortal.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            HttpContext.Session.SetString("login", "Гость");
+            HttpContext.Session.SetString("login", "Guest");
             return RedirectToAction("Index", "Home");
         }
     }

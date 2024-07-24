@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcQWRpdEdlbnJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Music/EditTrack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNcRWRpdFRyYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Registration/UserRegistration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFVzZXJSZWdpc3RyYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -64,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/User/UserAddTrack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyQWRkVHJhY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/KASHAG/programming/ASPCORE_AJAX/HW_7_MusicPortal/HW_7_MusicPortal/Views/_ViewImports.cshtml]

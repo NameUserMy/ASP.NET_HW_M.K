@@ -5,25 +5,29 @@
 }
 
 
-<div class="track-contener  allborder">
+<div class="track-contener">
 
+    <div class="for-filtration">
+        
+        <genre-pagination page-action="Index" Pagination="Model"></genre-pagination>
+        <performer-filter-p page-action="Index" pagination="Model"></performer-filter-p>
+        <album-filter-p page-action="Index" pagination="Model"></album-filter-p>
+    </div>
+    <div class="track-view">
+        @foreach (var item in Model.SrcTrack)
+        {
+           
+            <div class="track-card">
 
-
-
-    <genre-pagination page-action="Index" Pagination="Model"></genre-pagination>
-    @foreach (var item in Model.SrcTrack)
-    {
-        <div class="track-view allborder">
-            <div class="performer-track">
-                <span> @item.performer</span><br />
-                <span> @item.Title</span>
+                <span class="performer-name"> @item.performer</span>
+                <span class="composition-title"> @item.Title</span>
+                <audio controls="controls">
+                    <source src="@item.Src" type="audio/mpeg" />
+                </audio>
+                <span></span>
             </div>
-            <audio controls="controls">
-                <source src="@item.Src" type="audio/mpeg" />
-            </audio>
-        </div>
-    }
+        }
+    </div>
+    <paginations page-action="Index" pagination-track="Model.PageTrackL" parametr="trackPage"></paginations>
 </div>
-
-
    

@@ -10,29 +10,27 @@ namespace HW_7_MusicPortal.Controllers.Administrator
 {
     public class AdminController : Controller
     {
-        private IWebHostEnvironment? _environment;
+       
         private readonly ILogger<AdminController>? _logger;
         private readonly IAdminService? _AdminService;
         private readonly IInformationService? _InformationService;
         private readonly CrudUserService? _crudUserService;
-        public AdminController(IAdminService adminService, CrudUserService crudUserService, IWebHostEnvironment path,
-            ILogger<AdminController> logger,
-            IInformationService informationService
+        public AdminController(IAdminService adminService, CrudUserService crudUserService,ILogger<AdminController> logger,IInformationService informationService
 
             )
         {
             _logger = logger;
-            _environment = path;
             _AdminService = adminService;
             _crudUserService = crudUserService;
             _InformationService = informationService;
 
         }
-        public IActionResult Admin()
+        public async Task<IActionResult> Admin(AdminInfoDTO adminInfo)
         {
 
+            adminInfo = await _InformationService.GetAllInfoForBoard();
 
-            return View();
+            return View(adminInfo);
         }
        
 

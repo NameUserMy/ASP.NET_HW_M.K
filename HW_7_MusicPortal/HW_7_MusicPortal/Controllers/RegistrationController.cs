@@ -1,8 +1,8 @@
 ﻿using HW_7_MusicPortal.Services;
-using HW_7_MusicPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using MusicPortal.BLL.Interfaces;
 using MusicPortal.BLL.DTO;
+using HW_7_MusicPortal.Models.FormModels;
 
 namespace HW_7_MusicPortal.Controllers
 {

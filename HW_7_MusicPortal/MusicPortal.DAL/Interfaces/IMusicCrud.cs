@@ -29,6 +29,7 @@ namespace MusicPortal.DAL.Interfaces
 
         #region Delete Method
         public Task DeleteGenreAsync(int id);
+        public Task DeleteTrackAsync(int id);
         #endregion
         #region Read Method
 

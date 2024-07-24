@@ -1,11 +1,5 @@
 ﻿$(document).ready(() => {
 
-
-
-   
-
-
-
     $(`.textInput`).on(`focus`, (e) => {
         $(e.currentTarget).removeAttr("readonly");
     })

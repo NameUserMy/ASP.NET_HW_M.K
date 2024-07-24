@@ -51,8 +51,16 @@ namespace MusicPortal.DAL.Repository
         }
         public async Task UpdateGenreAsync(Genre genre)
         {
-             _DB.Genres.FirstOrDefaultAsync(e=>e.Id==genre.Id).Result.Title=genre.Title;
+            _DB.Genres.FirstOrDefaultAsync(e=>e.Id==genre.Id).Result.Title=genre.Title;
         }
+
+        public async Task UpdateTrackkAsync(Track track)
+        {
+            _DB.Tracks.FirstOrDefaultAsync(e => e.Id == track.Id).Result.Title = track.Title;
+        }
+
+
+
         public async Task UpdateSourceAsync(SourceTrack srcTrack)
         {
             _DB.SourceTracks.FirstOrDefaultAsync(e => e.Id == srcTrack.Id).Result.Src = srcTrack.Src;
@@ -71,10 +79,7 @@ namespace MusicPortal.DAL.Repository
         {
             throw new NotImplementedException();
         }
-        public Task UpdateTrackkAsync(Track track)
-        {
-            throw new NotImplementedException();
-        }
+        
         public Task UpdateCategoryAsync(Category genre)
         {
             throw new NotImplementedException();
@@ -90,12 +95,16 @@ namespace MusicPortal.DAL.Repository
            _DB.Remove(targetDelete);
         }
 
-
+        public async Task DeleteTrackAsync(int id)
+        {
+            var targetDelete = await _DB.Tracks.FirstOrDefaultAsync(e => e.Id == id);
+            _DB.Remove(targetDelete);
+        }
         #endregion
 
 
         #region Read Method
-            public async Task<IEnumerable<SourceTrack>> GetAllSrcTrackAsync()
+        public async Task<IEnumerable<SourceTrack>> GetAllSrcTrackAsync()
             {
                  return await Task.Run(()=>_DB.SourceTracks);
             }
@@ -111,5 +120,7 @@ namespace MusicPortal.DAL.Repository
                   $"{_DB.Albums.FirstOrDefaultAsync(p => p.Id == idAlbum).Result.Title}";
             return Path;
         }
+
+       
     }
 }

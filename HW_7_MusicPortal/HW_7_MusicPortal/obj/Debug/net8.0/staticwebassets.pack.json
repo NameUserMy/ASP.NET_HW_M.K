@@ -5,20 +5,32 @@
       "PackagePath": "staticwebassets\\HW_7_MusicPortal.bundle.scp.css"
     },
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Michael Jackson - Thriller.mp3",
-      "PackagePath": "staticwebassets\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Michael Jackson - Thriller.mp3"
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Thriller.mp3",
+      "PackagePath": "staticwebassets\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Thriller.mp3"
     },
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3",
-      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3"
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3"
     },
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3",
-      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3"
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\T.N.T..mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\T.N.T..mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\The Jack.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\The Jack.mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\AC-DC - Highway To Hell.mp3",
       "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\AC-DC - Highway To Hell.mp3"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\Touch Too Much.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\Touch Too Much.mp3"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\FormTrack.css",
@@ -31,10 +43,6 @@
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
       "PackagePath": "staticwebassets\\css\\Portal\\admin.css"
-    },
-    {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\card-info.css",
-      "PackagePath": "staticwebassets\\css\\Portal\\card-info.css"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\form-search.css",
@@ -63,10 +71,6 @@
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\registrationForm.css",
       "PackagePath": "staticwebassets\\css\\Portal\\registrationForm.css"
-    },
-    {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\tegHelperSort.css",
-      "PackagePath": "staticwebassets\\css\\Portal\\tegHelperSort.css"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\viewTrack.css",

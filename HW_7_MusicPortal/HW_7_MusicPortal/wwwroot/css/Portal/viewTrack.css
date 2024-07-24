@@ -1,17 +1,141 @@
-
+﻿
 .track-contener{
-
     display:grid;
-
-
-
-
+    grid-template-rows:0.2fr 1fr 0.1fr;
+    height:100%;
+    margin-left:1%;
+    
 }
 
 
 .track-view{
+    display:grid;
+    grid-template-columns:0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    align-items:end;
+   
+}
+
+
+.track-card{
+    display:grid;
+    grid-template-rows:0.1fr 0.1fr 0.1fr 0.1fr ;
+}
+
+
+.performer-name {
+    font-size: 1.7em;
+    font-weight: 700;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+.composition-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: gray;
+    text-shadow: 1px 1px black;
+}
+
+
+.for-filtration{
+
+    display:flex;
+    height:100%;
+}
 
 
 
 
+
+
+
+
+
+
+
+/*Card filter*/
+.card-filter {
+    display: grid;
+    grid-template-rows: 50% 25%;
+    grid-template-areas: 'filter' 'pagination';
+    width:20%;
+}
+
+
+.filter {
+    grid-area: filter;
+    text-shadow: -0.2px 0.5px 0.3px black;
+    
+    font-size: 1em;
+    font-weight: 800;
+}
+
+
+.pagination-filter{
+    grid-area:pagination;
+    align-items:center;
+}
+/********/
+
+
+
+
+/*****Pagination******/
+.list-none-marker{
+    list-style-type: none;
+}
+
+.TagHelperPagination li {
+    color: white;
+    display: inline-block;
+    background-color: forestgreen;
+    user-select: none;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 0.2%;
+    padding: 1px;
+    box-shadow: 1.5px 2px 2px black;
+    border-radius: 7px;
+    text-align: center;
+    align-content: center;
+    min-width: 30px;
+    min-height: 20px;
+}
+.TagHelperPagination a:visited li {
+    background-color: orange;
+}
+
+
+
+.order-by {
+}
+
+.order-by::after {
+        content: '\21E7';
+        font-size: 1.7em;
+        font-weight: 700;
+        color: gray;
+       text-shadow: 1px 1px black;
+}
+
+.order-by-down {
+}
+
+    .order-by-down::after {
+        content: '\21E9';
+        font-size: 1.7em;
+        font-weight: 700;
+        color: gray;
+        text-shadow: 1px 1px black;
+    }
+
+
+
+
+.pagination-Butom {
+    height: 30px;
+    margin:0;
+    padding:0;
+    text-align:center;
 }

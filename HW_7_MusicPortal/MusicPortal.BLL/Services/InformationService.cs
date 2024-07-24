@@ -30,14 +30,18 @@ namespace MusicPortal.BLL.Services
             return mapper.Map<IEnumerable<User>, IEnumerable<ConfirmUserDTO>>(await DB.Information.GetConfirmUser());
         }
 
-        public async Task<IEnumerable<Album>> GetAlbums()
+        public async Task<IEnumerable<AlbumDTO>> GetAllAlbums()
         {
-           return await DB.Information.GetAllAlbumAsync();
+            var mapper = new MapperConfiguration(conf => conf.CreateMap<Album, AlbumDTO>()).CreateMapper();
+            return mapper.Map<IEnumerable<Album>, IEnumerable<AlbumDTO>>(await DB.Information.GetAllAlbumAsync());
         }
 
-        public async Task<IEnumerable<Performer>> GetAllPerformerAsync()
+        public async Task<IEnumerable<PerformerDTO>> GetAllPerformerAsync()
         {
-           return await DB.Information.GetAllPerformerAsync();
+            var mapper = new MapperConfiguration(conf => conf.CreateMap<Performer, PerformerDTO>()).CreateMapper();
+            return mapper.Map<IEnumerable<Performer>, IEnumerable<PerformerDTO>>(await DB.Information.GetAllPerformerAsync());
+
+           
         }
 
         public async Task<IEnumerable<GenreDTO>> GetAllGenreAsync()
@@ -56,8 +60,32 @@ namespace MusicPortal.BLL.Services
         {
             return await DB.Information.GetAllCategoryAsync();
         }
+        public async Task<IEnumerable<TrackDTO>> GetAllTrackAsync()
+        {
 
-      
+            List<TrackDTO>? infoTrack = new List<TrackDTO>();
+
+
+            foreach (var item in  await DB.Information.GetAllTrackAsync())
+            {
+                foreach (var dscTrack in item.Performers)
+                {
+
+                    infoTrack.Add(new TrackDTO
+                    {
+                        Id = item.Id,
+                        Title = item.Title,
+                        Performer = dscTrack.Name
+
+
+                    });
+
+                }
+
+            }
+            return infoTrack;
+        }
+
 
         public async Task<IEnumerable<TrackinfoDTO>> GetInfoForTrack()
         {
@@ -123,6 +151,29 @@ namespace MusicPortal.BLL.Services
 
 
             
+        }
+
+        public async Task<AdminInfoDTO> GetAllInfoForBoard()
+        {
+            AdminInfoDTO adminInfo = new AdminInfoDTO();
+
+            await Task.Run(() =>
+            {
+                adminInfo.TracksCount = DB.Information.GetAllSrcTrackAsync().Result.Count();
+                adminInfo.AlbumsCount = DB.Information.GetAllAlbumAsync().Result.Count();
+                adminInfo.GenresCount = DB.Information.GetAllGenreAsync().Result.Count();
+                adminInfo.PerformersCount = DB.Information.GetAllPerformerAsync().Result.Count();
+                adminInfo.ForConfarmationsCount = DB.Information.GetNotConfirmUser().Result.Count();
+            });
+            return adminInfo;
+        }
+
+        public async Task<TrackDTO> GetTrackAsync(int idTrack)
+        {
+
+            var targetTrack = await DB.Information.GetTrackAsync(idTrack);
+
+           return  new TrackDTO {Id=targetTrack.Id,Title=targetTrack.Title};
         }
     }
 }

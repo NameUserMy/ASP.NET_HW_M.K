@@ -14,13 +14,17 @@ namespace MusicPortal.DAL.Repository
             _DB = context;
         }
 
-       
+
+        #region Get All Methods
 
         public async Task<IEnumerable<Album>> GetAllAlbumAsync()
         {
             return await Task.Run(()=>_DB.Albums); 
         }
-
+        public async Task<IEnumerable<Performer>> GetAllPerformerAsync()
+        {
+            return await Task.Run(() => _DB.Performsers);
+        }
         public async Task<IEnumerable<Category>> GetAllCategoryAsync()
         {
             return await Task.Run(() => _DB.Categories);
@@ -30,16 +34,13 @@ namespace MusicPortal.DAL.Repository
         {
             return await Task.Run(() => _DB.Genres);
         }
-
+        #endregion
         public async Task<Genre> GetGenreAsync(int idGenre)
         {
              return await _DB.Genres.FirstOrDefaultAsync(e=>e.Id==idGenre);
         }
 
-        public async Task<IEnumerable<Performer>> GetAllPerformerAsync()
-        {
-            return await Task.Run(() => _DB.Performsers);
-        }
+       
 
         public async Task<IEnumerable<User>> GetConfirmUser()
         {
@@ -69,6 +70,16 @@ namespace MusicPortal.DAL.Repository
            return await Task.Run(() => _DB.SourceTracks.Where(e=>e.Src.Contains(like)).Include(e => e.Track).ThenInclude(e=>e.Performers));
 
            
+        }
+
+        public async Task<IEnumerable<Track>> GetAllTrackAsync()
+        {
+            return await Task.Run(() => _DB.Tracks.Include(p=>p.Performers));
+        }
+
+        public async Task<Track> GetTrackAsync(int idTrack)
+        {
+            return await _DB.Tracks.FirstOrDefaultAsync(e => e.Id == idTrack);
         }
     }
 }

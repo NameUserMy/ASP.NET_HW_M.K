@@ -28,3 +28,53 @@ li{
 
     color:white;
 }
+
+.button-castom {
+    border: none;
+    border-radius: 8px;
+    box-shadow: -1px 2px 1px black;
+}
+
+.button-castom:hover {
+        border: none;
+        border-radius: 8px;
+        color: aliceblue;
+        box-shadow: -1px 2px 3px orange, -1px -2px 3px orange, 1px 2px 3px orange;
+}
+
+
+.custom-input {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    text-shadow: -4px 1px 1px black;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+
+.button-castom-form {
+    border: none;
+    border-radius: 8px;
+    box-shadow: -1px 2px 1px black;
+}
+
+    
+select{
+
+    border:none;
+    outline:none;
+    background-color:transparent;
+}
+
+option {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+

@@ -10,22 +10,27 @@ namespace MusicPortal.BLL.Interfaces
 {
     public interface IMusicCrudService
     {
+        #region Create Method
         public Task CreatePerformerAsync(CreateGenreDTO performer);
         public Task CreateGenreAsync(CreateGenreDTO genre);
         public Task CreateCategoryAsync(CreateGenreDTO category);
         public Task CreateTrackAsync(AddTrackDTO track,string src);
         public Task CreateAlbumAsync(CreateGenreDTO album);
         public Task<string> PathTrack(int IdPerformer, int idGenre, int idCategory, int idAlbum);
+        #endregion
 
-
+        #region Update Method
         public Task UpdateSrcExcute(string srcOld, string srcNew);
 
         public Task UpdatePerformerAsync(CreateGenreDTO performer);
         public Task UpdateGenreAsync(GenreDTO genre);
         public Task UpdateAlbumAsync(CreateGenreDTO album);
-        public Task UpdateTrackkAsync(Track track);
+        public Task UpdateTrackkAsync(TrackDTO track);
+        #endregion
 
+        #region Delete Method
         public Task DeleteGenreAsync(int id);
-
+        public Task DeleteTrackAsync(int id);
+        #endregion
     }
 }

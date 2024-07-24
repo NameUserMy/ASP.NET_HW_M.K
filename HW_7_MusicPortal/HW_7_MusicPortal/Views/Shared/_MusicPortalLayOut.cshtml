@@ -15,10 +15,10 @@
     </header>
 
         <main class="mainPortal">
-        <header class="item1 font-Setting general-background-color ">
+        <header class="item1 font-Setting general-background-color main-border">
                 <div class="head">
                 <div class="user">You are logged in as @Context.Session.GetString("login")</div>
-                    <div class="logo">Logo</div>
+                <div class="logo"><div class="name-logo">Meloman Portal</div></div>
                 <nav class="head-menu ">
                     <span>
                         <a asp-action="Loggin" asp-controller="Loggin">Entrer</a>
@@ -32,17 +32,15 @@
                 </nav>
                 </div>
             </header>
-        <aside class="item2 general-background-color">
-            <div class="mein-menu">
-                
-            </div>
+        <aside class="item2 general-background-color main-border">
+            <main-menu page-action="Index" usr=@Context.Session.GetString("login")></main-menu>
         </aside>
-            <section class="item3">
+        <section class="item3 main-border">
                 @RenderBody()
          
             </section>
-        <footer class="item4 general-background-color">
-                fotterr
+        <footer class="item4 general-background-color main-border main-font main-align">
+            &#9400  Meloman Portal
             </footer>
         </main>
 

@@ -1,0 +1,29 @@
+﻿@model EditTrackViewModel
+
+@{
+    Layout = "_AdminLayOut";
+}
+<div class="contener-item">
+    <div class="eddit-genre-contener size-contener">
+
+        @foreach (var item in Model.Tracks)
+        {
+            <form asp-action="ConFirmTrack" class="card-genre-edit">
+                <span class="font-settings-edit-genre">@item.Performer</span>
+                <div>
+                    <input asp-for="TrackId" hidden value="@item.Id" />
+                    <input asp-for="TrackTitel" class="textInput custom-input" value="@item.Title" readonly /><br />
+                </div>
+                <div>
+                    <input class="back-color-button-Green font-color-general button-castom" type="submit" value="Confirm" />
+                    <a asp-action="DeleteTrack" asp-controller="Music" asp-route-id="@item.Id"><input type="button" class="back-color-button-Red button-castom" value="Delete" /></a>
+
+                </div>
+
+            </form>
+
+        }
+    </div>
+    <span> <paginations page-action="EditTrack" pagination-track="Model.Page" parametr="editPageTrack"></paginations></span>
+
+</div>

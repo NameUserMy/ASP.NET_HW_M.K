@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zfATT035bJXo9RCZXwPUCagGgTnweOiFs+WNou4L4TE=",
+  "Hash": "iu0Pmn3OCM+A0J7thZP/xe9/CsHqxU2NmuByt1tzXrE=",
   "Source": "HW_7_MusicPortal",
   "BasePath": "_content/HW_7_MusicPortal",
   "Mode": "Default",
@@ -91,25 +91,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Portal\\admin.css"
-    },
-    {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\card-info.css",
-      "SourceId": "HW_7_MusicPortal",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
-      "BasePath": "_content/HW_7_MusicPortal",
-      "RelativePath": "css/Portal/card-info.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Portal\\card-info.css"
     },
     {
       "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\form-search.css",
@@ -281,25 +262,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Portal\\registrationForm.css"
-    },
-    {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\tegHelperSort.css",
-      "SourceId": "HW_7_MusicPortal",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
-      "BasePath": "_content/HW_7_MusicPortal",
-      "RelativePath": "css/Portal/tegHelperSort.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Portal\\tegHelperSort.css"
     },
     {
       "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\viewTrack.css",
@@ -1442,12 +1404,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Michael Jackson - Thriller.mp3",
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Thriller.mp3",
       "SourceId": "HW_7_MusicPortal",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
       "BasePath": "_content/HW_7_MusicPortal",
-      "RelativePath": "Music/Pop/Pop/ Michael Jackson/ Thriller/Michael Jackson - Thriller.mp3",
+      "RelativePath": "Music/Pop/Pop/ Michael Jackson/ Thriller/Thriller.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1458,15 +1420,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Michael Jackson - Thriller.mp3"
+      "OriginalItemSpec": "wwwroot\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Thriller.mp3"
     },
     {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3",
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3",
       "SourceId": "HW_7_MusicPortal",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
       "BasePath": "_content/HW_7_MusicPortal",
-      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/AC-DC - T.N.T..mp3",
+      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/AC-DC - Harley-Davidson.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1477,15 +1439,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - T.N.T..mp3"
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3"
     },
     {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3",
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\T.N.T..mp3",
       "SourceId": "HW_7_MusicPortal",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
       "BasePath": "_content/HW_7_MusicPortal",
-      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/AC-DC - Thunderstruck.mp3",
+      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/T.N.T..mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1496,7 +1458,45 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Thunderstruck.mp3"
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\T.N.T..mp3"
+    },
+    {
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\The Jack.mp3",
+      "SourceId": "HW_7_MusicPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
+      "BasePath": "_content/HW_7_MusicPortal",
+      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/The Jack.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\The Jack.mp3"
+    },
+    {
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3",
+      "SourceId": "HW_7_MusicPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
+      "BasePath": "_content/HW_7_MusicPortal",
+      "RelativePath": "Music/Rock/Hard-rock/AC-DC/High Voltage/Thunderstruck.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\Thunderstruck.mp3"
     },
     {
       "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\AC-DC - Highway To Hell.mp3",
@@ -1516,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\AC-DC - Highway To Hell.mp3"
+    },
+    {
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\Touch Too Much.mp3",
+      "SourceId": "HW_7_MusicPortal",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\",
+      "BasePath": "_content/HW_7_MusicPortal",
+      "RelativePath": "Music/Rock/Hard-rock/AC-DC/Highway to Hell/Touch Too Much.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\Highway to Hell\\Touch Too Much.mp3"
     }
   ]
 }

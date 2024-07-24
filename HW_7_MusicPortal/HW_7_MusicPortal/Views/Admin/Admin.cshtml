@@ -1,4 +1,6 @@
-﻿@{
+﻿@using MusicPortal.BLL.DTO
+@model AdminInfoDTO
+@{
     Layout = "_AdminLayOut";
 }
 
@@ -6,13 +8,29 @@
     <div class="heder-board" >
         Information board
     </div>
-    <div class="info ">
-        <div class="card-info r">
+    <div class="info-admin">
             <div class="header-info">All Track</div>
-            <div class="content-info">50</div>
-            <div class="footer-info"></div>
-        </div>
+            <div class="content-info">@Model.TracksCount</div>
+    </div>
+    <div class="info-admin">
+            <div class="header-info">All Genre</div>
+            <div class="content-info">@Model.GenresCount</div>
+    </div>
+    <div class="info-admin">
+            <div class="header-info">All Performers</div>
+            <div class="content-info">@Model.PerformersCount</div>
+     </div>
+
+    <div class="info-admin">
+            <div class="header-info">All Albums</div>
+            <div class="content-info">@Model.AlbumsCount</div>
+            
     </div>
 
-
+    <div class="info-admin">
+       
+            <div class="header-info">for confirmation</div>
+            <div class="content-info">@Model.ForConfarmationsCount</div>
+           
+    </div>
 </div>

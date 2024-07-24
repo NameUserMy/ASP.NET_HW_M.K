@@ -4,6 +4,8 @@ using MusicPortal.BLL.Interfaces;
 using MusicPortal.BLL.DTO;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicPortal.DAL.Entities;
+using HW_7_MusicPortal.Models.FormModels;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace HW_7_MusicPortal.Controllers.Administrator
 {
@@ -14,6 +16,8 @@ namespace HW_7_MusicPortal.Controllers.Administrator
         private readonly IAdminService? _AdminService;
         private IWebHostEnvironment? _environment;
         private readonly ILogger<MusicController>? _logger;
+        private const int pageSize = 24;
+        private const int pageSizeTrack = 24;
         public MusicController(
             IInformationService informationService,
             IAdminService adminService,
@@ -27,19 +31,36 @@ namespace HW_7_MusicPortal.Controllers.Administrator
         
         
         }
-        public async Task<IActionResult> AditGenre(EditGenreViewModel infoGenre)
+        public async Task<IActionResult> AditGenre(int page=1)
         {
-            infoGenre.Genre = await _InformationService.GetAllGenreAsync();
+            var Genres = await _InformationService.GetAllGenreAsync();
+            var count = Genres.Count();
+            var itemsG = Genres.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+
+            PageViewModel pageViewModelG = new PageViewModel(count, page, pageSize);
+            EditGenreViewModel infoGenre = new EditGenreViewModel(pageViewModelG, itemsG);
+
             return View(infoGenre);
         }
-        public async Task<IActionResult> DeleteGenre(int id)
+        public async Task<IActionResult> EditTrack(int editPageTrack=1)
         {
-
-            _logger.LogInformation($"{id}");
-            await _AdminService.DeleteGenreAsync(id);
-
-            return RedirectToAction("AditGenre");
+            var tracks = await _InformationService.GetAllTrackAsync();
+            var count = tracks.Count();
+            var items = tracks.Skip((editPageTrack - 1) * pageSizeTrack).Take(pageSizeTrack).ToList();
+            PageViewModel pageViewModelEditT = new PageViewModel(count, editPageTrack, pageSizeTrack);
+            EditTrackViewModel ifoTrack = new EditTrackViewModel(items, pageViewModelEditT);
+            return View(ifoTrack);
         }
+        public async Task<IActionResult> DeleteGenre(int id)// only Db
+        {
+            await _AdminService.DeleteGenreAsync(id);
+            return RedirectToAction("AditGenre");
+        }/** To-do Delete Local **/
+        public async Task<IActionResult> DeleteTrack(int id)// only Db
+        {
+            await _AdminService.DeleteTrackAsync(id);
+            return RedirectToAction("EditTrack");
+        }/** To-do Delete Local **/
 
         public async Task<IActionResult> ConFirm(EditGenreViewModel genreUpdate)
         {
@@ -190,7 +211,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             vm.Genre = new SelectList(await _InformationService.GetAllGenreAsync(), nameof(Genre.Id), nameof(Genre.Title));
             vm.Category = new SelectList(await _InformationService.GetAllCategoryAsync(), nameof(Category.Id), nameof(Category.Title));
             vm.Performer = new SelectList(await _InformationService.GetAllPerformerAsync(), nameof(Performer.Id), nameof(Performer.Name));
-            vm.Album = new SelectList(await _InformationService.GetAlbums(), nameof(Album.Id), nameof(Album.Title));
+            vm.Album = new SelectList(await _InformationService.GetAllAlbums(), nameof(Album.Id), nameof(Album.Title));
 
             return View(vm);
         }
@@ -238,9 +259,49 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             incommingTrack.Genre = new SelectList(await _InformationService.GetAllGenreAsync(), nameof(Genre.Id), nameof(Genre.Title));
             incommingTrack.Category = new SelectList(await _InformationService.GetAllCategoryAsync(), nameof(Category.Id), nameof(Category.Title));
             incommingTrack.Performer = new SelectList(await _InformationService.GetAllPerformerAsync(), nameof(Performer.Id), nameof(Performer.Name));
-            incommingTrack.Album = new SelectList(await _InformationService.GetAlbums(), nameof(Album.Id), nameof(Album.Title));
+            incommingTrack.Album = new SelectList(await _InformationService.GetAllAlbums(), nameof(Album.Id), nameof(Album.Title));
             return View(incommingTrack);
         }
+
+
+
+       
+        public async Task<IActionResult> ConFirmTrack(EditTrackViewModel ifoTrack)
+        {
+            var oldTrackName = await _InformationService.GetTrackAsync(ifoTrack.TrackId);
+
+            ChangeFileNameAsync(oldTrackName.Title,ifoTrack.TrackTitel);//Update file in server
+
+            // Update Path in BD
+            await _AdminService.UpdateTrackkAsync(new TrackDTO { Title = ifoTrack.TrackTitel, Id = ifoTrack.TrackId });
+            await _AdminService.UpdateSrcExcute($"{oldTrackName.Title}", $"{ifoTrack.TrackTitel}");
+            return RedirectToAction("EditTrack");
+        }
+        private void ChangeFileNameAsync(string oldname,string newName )
+        {
+
+            string path = _environment.WebRootPath + "\\Music";
+            string searchPattern = $"{oldname}";
+            string[] filePaths = Directory.GetFiles(path, searchPattern, SearchOption.AllDirectories);
+
+            string blah = "";
+
+            Task.Run(() => {
+                foreach (string filePath in filePaths)
+                {
+                    blah = filePath;
+                }
+                FileInfo fileInfo = new FileInfo(blah);
+                fileInfo.MoveTo(fileInfo.Directory.FullName + "\\" + $"{newName}");
+            });
+           
+
+        }
+
+
+       
+
+
 
     }
 }

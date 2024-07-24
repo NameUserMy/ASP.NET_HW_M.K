@@ -1,10 +1,12 @@
 .FormR {
     display: grid;
-    height: 600px;
+    height: 80%;
     grid-template-rows: repeat(6,50px);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top:auto;
+    margin-bottom:auto;
     user-select: none;
     row-gap: 5%;
     background-color: orange;

@@ -8,9 +8,9 @@
         @foreach (var info in Model.NotConfirmUser)
         {
             <form class="user-management">
-                <label>@Html.DisplayFor(modelItem => info.NickName)</label>
-                <a asp-action="ConfirmUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="back-color-button-Green font-settings-admin" type="button" value="confirm" /> </a>
-                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
+                <label class="user-nick">@Html.DisplayFor(modelItem => info.NickName)</label>
+                <a asp-action="ConfirmUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Green font-settings-admin" type="button" value="confirm" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
             </form>
 
         }
@@ -19,9 +19,9 @@
         @foreach (var info in Model.ConfirmUser)
         {
             <form class="user-management">
-                <label> @Html.DisplayFor(modelItem => info.NickName)</label>
-                <a asp-action="BlockUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="back-color-button-Orange font-settings-admin" type="button" value="block" /> </a>
-                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
+                <label class="user-nick"> @Html.DisplayFor(modelItem => info.NickName)</label>
+                <a asp-action="BlockUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Orange font-settings-admin" type="button" value="block" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
             </form>
 
         }

@@ -1,4 +1,66 @@
 .mein-menu{
     display:flex;
     flex-direction:column;
+    
+}
+
+.hello-User {
+    background-color: rgb(2, 122, 20);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-shadow: -4px 1px 1px black;
+    text-align:center;
+    user-select:none;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    margin-bottom:3px;
+
+}
+
+.loggout-User {
+    background-color: rgb(2, 122, 20);
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-shadow: -4px 1px 1px black;
+    text-align: center;
+    user-select: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: 3px;
+}
+
+
+
+.search{
+
+    
+
+}
+.search::after {
+    content: '\1F50D';
+}
+
+
+
+
+.custom-input-search{
+    width:70%;
+    font-size: 1.5em;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    text-shadow: -2px 1px 1px black;
+}
+
+
+.left-margin-Menu {
+    margin-left:10%;
+    margin-bottom:3%;
+}
+
+.button-main-menu {
+    font-size: 1.5em;
+    font-weight: 600;
 }
