@@ -9,8 +9,8 @@
       "PackagePath": "staticwebassets\\Music\\Pop\\Pop\\ Michael Jackson\\ Thriller\\Thriller.mp3"
     },
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3",
-      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\AC-DC - Harley-Davidson.mp3"
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\ Harley-Davidson.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\ Harley-Davidson.mp3"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\Music\\Rock\\Hard-rock\\AC-DC\\High Voltage\\T.N.T..mp3",
@@ -61,12 +61,16 @@
       "PackagePath": "staticwebassets\\css\\Portal\\header.css"
     },
     {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\language.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\language.css"
+    },
+    {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\logginForm.css",
       "PackagePath": "staticwebassets\\css\\Portal\\logginForm.css"
     },
     {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
-      "PackagePath": "staticwebassets\\css\\Portal\\musicManagement.css"
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicPortalMaein.css",
+      "PackagePath": "staticwebassets\\css\\Portal\\musicPortalMaein.css"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\registrationForm.css",

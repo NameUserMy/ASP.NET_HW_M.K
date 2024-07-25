@@ -13,19 +13,18 @@ namespace HW_7_MusicPortal.TegHelper
     {
 
 
-        protected TagBuilder? listPagination;//for pagination list(ul tag)
+        private TagBuilder? listPagination;//for pagination list(ul tag)
 
-        protected TagBuilder? liPaginationLink; //for pagination list(li tag)
-        protected TagBuilder? APaginationLink; //for pagination list(a tag)
-
-
-        protected TagBuilder? listLinkfilter;// for link filter (ul tag)
-        protected TagBuilder? liFilterLink;//li for link filtration (li tag)
-        protected TagBuilder? aFilterHref;// a for link filtration (a tag)
+        private TagBuilder? liPaginationLink; //for pagination list(li tag)
+        private TagBuilder? APaginationLink; //for pagination list(a tag)
 
 
-        protected IUrlHelperFactory? _urlHelperFactory;
-        protected IUrlHelper? urlHelper;
+        private TagBuilder? listLinkfilter;// for link filter (ul tag)
+      
+
+
+        private IUrlHelperFactory? _urlHelperFactory;
+        private IUrlHelper? urlHelper;
 
         public PaginationsTagHelper(IUrlHelperFactory helperFactory)
         {
@@ -73,7 +72,7 @@ namespace HW_7_MusicPortal.TegHelper
             return APaginationLink;
         }
 
-        protected virtual void AllPagination(TagHelperOutput output, bool HasPreviousPage, bool NextPage, int PageNumber, string paramName)
+        private  void AllPagination(TagHelperOutput output, bool HasPreviousPage, bool NextPage, int PageNumber, string paramName)
         {
 
             TagBuilder currentItem = PoginationHelper(urlHelper, PageNumber, PageNumber, paramName);

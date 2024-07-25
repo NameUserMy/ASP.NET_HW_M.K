@@ -1,0 +1,109 @@
+
+
+@import url(Portal/MenuPortal.css);
+@import url(Portal/form-search.css);
+@import url(Portal/header.css);
+@import url(Portal/admin.css);
+@import url(Portal/musicManagement.css);
+@import url(Portal/FormTrack.css);
+@import url(Portal/card-info.css);
+@import url(Portal/general.css);
+@import url(Portal/registrationForm.css);
+@import url(Portal/logginForm.css);
+@import url(Portal/genreForm.css);
+@import url(Portal/tegHelperSort.css);
+@import url(Portal/viewTrack.css);
+
+
+html, body {
+    height: 100%;
+    
+   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition-property: color;
+    transition-duration: 1s;
+}
+a:hover{
+    color:orange;
+}
+
+.padding-menu{
+ padding-left:3%;
+}
+
+.font-size-menu{
+    font-size:1.2em;
+    font-weight:400;
+}
+
+.mainPortal {
+    display: grid;
+    height: 100%;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-columns: .2fr 1fr;
+    grid-template-areas:
+        'header header'
+        'menu content'
+        'menu fotter';
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: grey
+}
+
+.item1 {
+    grid-area: header;
+}
+.item2 {
+    grid-area: menu;
+   
+    
+}
+.item3 {
+    display:grid;
+   
+    grid-area: content;
+    background-color:darkslategrey;
+    
+       
+}
+
+.item4 {
+    grid-area: fotter;
+}
+
+
+.main-border {
+    box-shadow: 1.5px 2px 2px orange;
+    border-radius: 8px;
+}
+
+.main-font {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.main-align{
+
+
+    align-content:center;
+    text-align:center;
+}
+
+.name-logo{
+
+   
+}
+
+.name-logo::before {
+  content: '\1D10B';
+  font-size:1.8em;
+  
+
+}
+
+/*&#119051*/

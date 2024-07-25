@@ -9,8 +9,8 @@
         {
             <form class="user-management">
                 <label class="user-nick">@Html.DisplayFor(modelItem => info.NickName)</label>
-                <a asp-action="ConfirmUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Green font-settings-admin" type="button" value="confirm" /> </a>
-                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
+                <a asp-action="ConfirmUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Green font-settings-admin" type="button" value="@Resource.Confirm" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="@Resource.Delete" /> </a>
             </form>
 
         }
@@ -20,8 +20,8 @@
         {
             <form class="user-management">
                 <label class="user-nick"> @Html.DisplayFor(modelItem => info.NickName)</label>
-                <a asp-action="BlockUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Orange font-settings-admin" type="button" value="block" /> </a>
-                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="Delete user" /> </a>
+                <a asp-action="BlockUser" asp-controller="Admin" asp-route-id="@info.Id"><input class=" button-castom back-color-button-Orange font-settings-admin" type="button" value="@Resource.Block" /> </a>
+                <a asp-action="DeleteUser" asp-controller="Admin" asp-route-id="@info.Id"><input class="button-castom back-color-button-Red font-settings-admin" type="button" value="@Resource.Delete" /> </a>
             </form>
 
         }

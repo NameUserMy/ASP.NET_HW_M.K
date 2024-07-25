@@ -1,0 +1,15 @@
+﻿@model LanguageViewModel
+
+
+<span>
+    <form  asp-action="Language" method="post">
+        <select class="color-language" asp-for="Culture" asp-items="Model.Languages">
+            <option selected="selected">@Resource.SelectLanguage</option>
+        </select>
+        
+        <input class="custom-input-language" type="submit" value="🗸" />
+    </form>
+    
+
+</span>
+

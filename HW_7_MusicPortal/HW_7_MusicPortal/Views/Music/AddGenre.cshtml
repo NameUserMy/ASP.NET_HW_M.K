@@ -13,41 +13,41 @@
         </span>
 
         <div class="field-group">
-            <input placeholder="Genre" class="info borderR" asp-for="Genre" />
+            <input placeholder="@Resource.Genre" class="info borderR" asp-for="Genre" />
             <span asp-validation-for="Genre" class="text-danger"></span>
 
         </div>
 
         <select class="info borderR field-group" asp-for="OptionGenre" asp-items="Model.GenriL">
-        <option value="" selected="selected" >Cohise genre</option>
+        <option value="" selected="selected" >@Resource.ChoiseGenre</option>
             
         </select>
         <div class="field-group">
-            <input placeholder="Category" class="info borderR" asp-for="Category" />
+            <input placeholder="@Resource.Category" class="info borderR" asp-for="Category" />
             <span asp-validation-for="Category" class="text-danger"></span>
         </div>
 
         <select class="info borderR field-group" asp-for="OptionCategory" asp-items="Model.CategoryL">
-            <option value="" selected="selected">Cohise categories</option>
+            <option value="" selected="selected">@Resource.ChoiseCategoty</option>
             
         </select>
         <div class="field-group">
-            <input placeholder="Performer" class="info borderR" asp-for="Performer" />
+            <input placeholder="@Resource.Performer" class="info borderR" asp-for="Performer" />
             <span asp-validation-for="Performer" class="text-danger"></span>
         </div>
 
         
         <select class="info borderR field-group" asp-for="OptionPerformer" asp-items="Model.PerformerL">
-            <option value="" selected="selected">Cohise performer</option>
+            <option value="" selected="selected">@Resource.ChoisePerformer</option>
         </select>
 
         <div class="field-group">
-            <input placeholder="Album" class="info borderR" asp-for="Album" />
+            <input placeholder="@Resource.Album" class="info borderR" asp-for="Album" />
             <span asp-validation-for="Album" class="text-danger"></span>
         </div>
 
         <div class="field-group">
-            <input class="info borderR back-color-button-Green" type="submit" value="Accept" />
+            <input class="info borderR back-color-button-Green" type="submit" value="@Resource.Confirm" />
         </div>
         <span></span>
     </form>

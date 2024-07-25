@@ -15,8 +15,8 @@
                     <input asp-for="TrackTitel" class="textInput custom-input" value="@item.Title" readonly /><br />
                 </div>
                 <div>
-                    <input class="back-color-button-Green font-color-general button-castom" type="submit" value="Confirm" />
-                    <a asp-action="DeleteTrack" asp-controller="Music" asp-route-id="@item.Id"><input type="button" class="back-color-button-Red button-castom" value="Delete" /></a>
+                    <input class="back-color-button-Green font-color-general button-castom" type="submit" value="@Resource.Confirm" />
+                    <a asp-action="DeleteTrack" asp-controller="Music" asp-route-id="@item.Id"><input type="button" class="back-color-button-Red button-castom" value="@Resource.Delete" /></a>
 
                 </div>
 

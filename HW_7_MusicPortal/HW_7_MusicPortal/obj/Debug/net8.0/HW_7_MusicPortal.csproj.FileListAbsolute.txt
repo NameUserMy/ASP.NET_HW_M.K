@@ -131,3 +131,8 @@ E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\bin\Debug\n
 E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\bin\Debug\net8.0\MusicPortal.DAL.pdb
 E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\bin\Debug\net8.0\AutoMapper.dll
 E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\bin\Debug\net8.0\System.Text.Json.dll
+E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\obj\Debug\net8.0\HW_7_MusicPortal.Resources.Resource.resources
+E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\obj\Debug\net8.0\HW_7_MusicPortal.csproj.GenerateResource.cache
+E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\bin\Debug\net8.0\en\HW_7_MusicPortal.resources.dll
+E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\obj\Debug\net8.0\HW_7_MusicPortal.Resources.Resource.en.resources
+E:\KASHAG\programming\ASPCORE_AJAX\HW_7_MusicPortal\HW_7_MusicPortal\obj\Debug\net8.0\en\HW_7_MusicPortal.resources.dll

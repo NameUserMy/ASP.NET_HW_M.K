@@ -1,5 +1,4 @@
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -17,27 +16,29 @@
         <main class="mainPortal">
         <header class="item1 font-Setting general-background-color main-border">
                 <div class="head">
-                <div class="user">You are logged in as @Context.Session.GetString("login")</div>
+                <div class="user">@Resource.Logged @Context.Session.GetString("login")</div>
                 <div class="logo"><div class="name-logo">Meloman Portal</div></div>
                 <nav class="head-menu ">
                     <span>
-                        <a asp-action="Loggin" asp-controller="Loggin">Entrer</a>
+                        <a asp-action="Loggin" asp-controller="Loggin">@Resource.Enter</a>
                     </span>
                     <span>
-                        <a asp-action="UserRegistration" asp-controller="Registration">Registration</a>
+                        <a asp-action="UserRegistration" asp-controller="Registration">@Resource.Registr</a>
                     </span>
                     <span>
-                        <a asp-action="Index" asp-controller="Home">Home</a>
+                        <a asp-action="Index" asp-controller="Home">@Resource.Home</a>
+                    </span>
+                    <span>
+                        @await Component.InvokeAsync("Language")
                     </span>
                 </nav>
-                </div>
+              </div>
             </header>
         <aside class="item2 general-background-color main-border">
             <main-menu page-action="Index" usr=@Context.Session.GetString("login")></main-menu>
         </aside>
         <section class="item3 main-border">
                 @RenderBody()
-         
             </section>
         <footer class="item4 general-background-color main-border main-font main-align">
             &#9400  Meloman Portal

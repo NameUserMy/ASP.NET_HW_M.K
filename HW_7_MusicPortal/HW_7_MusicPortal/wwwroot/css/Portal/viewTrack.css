@@ -2,7 +2,7 @@
 .track-contener{
     display:grid;
     grid-template-rows:0.2fr 1fr 0.1fr;
-    height:100%;
+    
     margin-left:1%;
     
 }
@@ -11,9 +11,8 @@
 .track-view{
     display:grid;
     grid-template-columns:0.5fr 0.5fr 0.5fr 0.5fr;
-    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
     align-items:end;
-   
 }
 
 

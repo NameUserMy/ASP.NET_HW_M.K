@@ -50,11 +50,11 @@ namespace HW_7_MusicPortal.TegHelper
         {
 
             spanTag.AddCssClass("hello-User");
-            spanTag.InnerHtml.Append($"Hello {Usr} !");
+            spanTag.InnerHtml.Append(  $"{Resources.Resource.Hello} {Usr} !");
             output.Content.AppendHtml(spanTag);
             spanTag = new TagBuilder("span");
             iputTag.AddCssClass("left-margin-Menu custom-input-search main-align");
-            iputTag.Attributes["placeholder"] = "In process";
+            iputTag.Attributes["placeholder"] = $"{Resources.Resource.ProccesMessage}";
             iputTag.Attributes["type"] = "text";
             iputTag.Attributes["disabled"]="";
             spanTag.InnerHtml.AppendHtml(iputTag);
@@ -66,7 +66,7 @@ namespace HW_7_MusicPortal.TegHelper
             {
                 spanTag = new TagBuilder("span");
                 spanTag.AddCssClass("left-margin-Menu button-main-menu font-Setting");
-                spanTag.InnerHtml.Append("Login or register");
+                spanTag.InnerHtml.Append($"{Resources.Resource.MessageGuest}");
                 output.Content.AppendHtml(spanTag);
 
             }
@@ -74,7 +74,7 @@ namespace HW_7_MusicPortal.TegHelper
             {
                 atTag = new TagBuilder("a");
                 atTag.AddCssClass("left-margin-Menu button-main-menu");
-                atTag.InnerHtml.Append("Add Trak");
+                atTag.InnerHtml.Append($"{Resources.Resource.AddTrack}");
                 atTag.Attributes["href"] = "/User/UserAddTrack";
                 output.Content.AppendHtml(atTag);
 
@@ -82,7 +82,7 @@ namespace HW_7_MusicPortal.TegHelper
             
             atTag = new TagBuilder("a");
             atTag.Attributes["Href"] = "Loggin/Logout";
-            atTag.InnerHtml.Append($"Loggout");
+            atTag.InnerHtml.Append($"{Resources.Resource.Logout}");
             spanTag = new TagBuilder("span");
             spanTag.AddCssClass("loggout-User");
             spanTag.InnerHtml.AppendHtml(atTag);

@@ -1,0 +1,22 @@
+
+.custom-input-language {
+    width: 20%;
+    height: 20%;
+    font-size: 1.2em;
+    font-weight: 500;
+    border: none;
+    color:white;
+    background-color: transparent;
+    text-shadow: -4px 1px 1px black;
+}
+
+.color-language{
+
+    color:white;
+}
+
+.color-language option{
+
+    color:black;
+    background-color:transparent;
+}

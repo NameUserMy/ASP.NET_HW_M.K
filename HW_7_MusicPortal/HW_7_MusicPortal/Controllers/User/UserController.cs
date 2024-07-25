@@ -1,4 +1,5 @@
-﻿using HW_7_MusicPortal.Models.FormModels;
+﻿using HW_7_MusicPortal.Filters;
+using HW_7_MusicPortal.Models.FormModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicPortal.BLL.DTO;
@@ -8,6 +9,7 @@ using MusicPortal.DAL.Entities;
 
 namespace HW_7_MusicPortal.Controllers.User
 {
+    [Culture]
     public class UserController : Controller
     {
         private readonly IInformationService? _InformationService;

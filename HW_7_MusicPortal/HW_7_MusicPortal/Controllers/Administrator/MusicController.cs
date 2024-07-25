@@ -6,9 +6,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicPortal.DAL.Entities;
 using HW_7_MusicPortal.Models.FormModels;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using HW_7_MusicPortal.Filters;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace HW_7_MusicPortal.Controllers.Administrator
 {
+    [Culture]
     public class MusicController : Controller
     {
 
@@ -31,7 +34,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
         
         
         }
-        public async Task<IActionResult> AditGenre(int page=1)
+        public async Task<IActionResult> EditGenre(int page=1)
         {
             var Genres = await _InformationService.GetAllGenreAsync();
             var count = Genres.Count();
@@ -54,7 +57,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
         public async Task<IActionResult> DeleteGenre(int id)// only Db
         {
             await _AdminService.DeleteGenreAsync(id);
-            return RedirectToAction("AditGenre");
+            return RedirectToAction("EditGenre");
         }/** To-do Delete Local **/
         public async Task<IActionResult> DeleteTrack(int id)// only Db
         {
@@ -62,8 +65,9 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             return RedirectToAction("EditTrack");
         }/** To-do Delete Local **/
 
-        public async Task<IActionResult> ConFirm(EditGenreViewModel genreUpdate)
+        public async Task<IActionResult> ConFirm(EditGenreViewModel genreUpdate=null!)
         {
+            //_logger.LogInformation(${ })
 
             var oldPath = await _InformationService.GetGenreAsync(genreUpdate.GenreId);
             string targetUpdate = _environment.WebRootPath + $"\\Music\\{oldPath.Title}";
@@ -71,7 +75,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             await Task.Run(() => di.MoveTo($"{_environment.WebRootPath}\\Music\\{genreUpdate.GenreTitel}"));
             await _AdminService.UpdateGenreAsync(new GenreDTO { Title=genreUpdate.GenreTitel,Id=genreUpdate.GenreId});
             await _AdminService.UpdateSrcExcute($"/Music/{oldPath.Title}", $"/Music/{genreUpdate.GenreTitel}");
-            return RedirectToAction("AditGenre");
+            return RedirectToAction("EditGenre");
         }
 
         public async Task<IActionResult> AddGenre()
@@ -93,7 +97,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             {
                 if (Directory.Exists(_environment.WebRootPath + $"\\Music\\{ingomminGenre.Genre}"))
                 {
-                    ModelState.AddModelError("", "Genre has already");
+                    ModelState.AddModelError("", Resources.Resource.GenreHasAlready);
 
                 }
                 else
@@ -115,7 +119,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
 
                 if (Directory.Exists(_environment.WebRootPath + $"\\Music\\{ingomminGenre.OptionGenre}\\{ingomminGenre.Category}"))
                 {
-                    ModelState.AddModelError("", "Category has already");
+                    ModelState.AddModelError("", Resources.Resource.CategoryHasAlready);
                 }
                 else
                 {
@@ -132,7 +136,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
 
                 if (Directory.Exists(_environment.WebRootPath + $"\\Music\\{ingomminGenre.OptionGenre}\\{ingomminGenre.OptionCategory}\\{ingomminGenre.Performer}"))
                 {
-                    ModelState.AddModelError("", "Performer has already");
+                    ModelState.AddModelError("", Resources.Resource.PerformerHasAlready);
                 }
                 else
                 {
@@ -151,7 +155,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
 
                 if (Directory.Exists(_environment.WebRootPath + $"\\Music\\{ingomminGenre.OptionGenre}\\{ingomminGenre.OptionCategory}\\{ingomminGenre.OptionPerformer}\\{ingomminGenre.Album}"))
                 {
-                    ModelState.AddModelError("", "Album has already");
+                    ModelState.AddModelError("",Resources.Resource.AlbumHasAlready);
                 }
                 else
                 {
@@ -165,17 +169,17 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             }
             else
             {
-                _logger.LogInformation($"Empty");
+                
                 if (!string.IsNullOrEmpty(ingomminGenre.Category)&&string.IsNullOrEmpty(ingomminGenre.OptionGenre))
                 {
 
-                    ModelState.AddModelError("", "category only in Gnere");
+                    ModelState.AddModelError("", Resources.Resource.CategoryOnlyInGnere);
 
                 }
                 if (!string.IsNullOrEmpty(ingomminGenre.Performer) && string.IsNullOrEmpty(ingomminGenre.OptionCategory))
                 {
 
-                    ModelState.AddModelError("", "Performer only in Category");
+                    ModelState.AddModelError("", Resources.Resource.PerformerOnlyInCategory);
 
                 }
 
@@ -185,7 +189,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
                     string.IsNullOrEmpty(ingomminGenre.OptionGenre))
                 {
 
-                    ModelState.AddModelError("", "Album  only in genre -> category -> Performer");
+                    ModelState.AddModelError("", Resources.Resource.AlbumOnly);
          
                     
                    
@@ -255,6 +259,7 @@ namespace HW_7_MusicPortal.Controllers.Administrator
 
             }
 
+            ModelState.AddModelError("", Resources.Resource.TrackAdd);
 
             incommingTrack.Genre = new SelectList(await _InformationService.GetAllGenreAsync(), nameof(Genre.Id), nameof(Genre.Title));
             incommingTrack.Category = new SelectList(await _InformationService.GetAllCategoryAsync(), nameof(Category.Id), nameof(Category.Title));
@@ -262,10 +267,6 @@ namespace HW_7_MusicPortal.Controllers.Administrator
             incommingTrack.Album = new SelectList(await _InformationService.GetAllAlbums(), nameof(Album.Id), nameof(Album.Title));
             return View(incommingTrack);
         }
-
-
-
-       
         public async Task<IActionResult> ConFirmTrack(EditTrackViewModel ifoTrack)
         {
             var oldTrackName = await _InformationService.GetTrackAsync(ifoTrack.TrackId);

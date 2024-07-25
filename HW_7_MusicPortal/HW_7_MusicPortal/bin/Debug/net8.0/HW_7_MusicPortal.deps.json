@@ -15,6 +15,11 @@
         },
         "runtime": {
           "HW_7_MusicPortal.dll": {}
+        },
+        "resources": {
+          "en/HW_7_MusicPortal.resources.dll": {
+            "locale": "en"
+          }
         }
       },
       "AutoMapper/13.0.1": {

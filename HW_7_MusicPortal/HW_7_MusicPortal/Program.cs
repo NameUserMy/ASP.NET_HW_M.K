@@ -1,4 +1,5 @@
 using HW_7_MusicPortal.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using MusicPortal.BLL.Infrastructure;
 using MusicPortal.BLL.Interfaces;
 using MusicPortal.BLL.Services;
@@ -11,8 +12,12 @@ builder.Services.AddSession(configure =>
 
     configure.IdleTimeout = TimeSpan.FromMinutes(5);
     configure.Cookie.Name = "SessionLogin";
+   
+   
 
 });
+
+
 
 
 builder.Services.AddMusicPortalContext("Data Source=./Data/MusicPortal.db");
@@ -21,6 +26,7 @@ builder.Services.Admin();
 builder.Services.AddScoped<IRegistrationService,RegistrationService>();
 builder.Services.AddScoped<IInformationService, InformationService>();
 builder.Services.AddScoped<ILogginService, LogginService>();
+builder.Services.AddScoped<ILanguageListService, LanguageListService>();
 builder.Services.AddScoped<Encryption>();
 builder.Services.AddControllersWithViews();
 

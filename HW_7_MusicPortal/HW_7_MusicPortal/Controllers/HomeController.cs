@@ -1,24 +1,32 @@
-﻿using HW_7_MusicPortal.Models;
+﻿using HW_7_MusicPortal.Filters;
+using HW_7_MusicPortal.Models;
+using HW_7_MusicPortal.TegHelper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 using MusicPortal.BLL.DTO;
 using MusicPortal.BLL.Interfaces;
 using System.Diagnostics;
+using System.Linq;
 
 namespace HW_7_MusicPortal.Controllers
 {
+
+    [Culture]
     public class HomeController : Controller
     {
         private readonly IInformationService? _InformationService;
         private readonly ILogger<HomeController>? _logger;
         private int pageSize = 2;
-        private int pageSizeTrack = 3;
+        private int pageSizeTrack = 8;
+
        
+       
+
         public HomeController(IInformationService? informationService, ILogger<HomeController> logger)
         {
             _logger = logger;
             _InformationService = informationService;
-            
         }
 
         public async Task<IActionResult> Index(string sort = "Music",
@@ -28,10 +36,6 @@ namespace HW_7_MusicPortal.Controllers
                                                int albumPage=1,
                                                int trackPage=1)
         {
-            
-
-           
-
              var Genres = await _InformationService.GetAllGenreAsync();
              var count = Genres.Count();
              var itemsG = Genres.Skip((page-1) * pageSize).Take(pageSize).ToList();
@@ -68,7 +72,6 @@ namespace HW_7_MusicPortal.Controllers
                 var oreder = itemsTrack.OrderBy(n => n.performer);//Up
                 viewModelTrack.SrcTrack = oreder;
             }
-
             /****Todo**/
             HttpContext.Session.SetString("loginGroup", "Use01ddddd");
             if (HttpContext.Session.GetString("login") == null)
@@ -76,6 +79,8 @@ namespace HW_7_MusicPortal.Controllers
 
                 HttpContext.Session.SetString("login", "Guest");
             }
+
+
             /*******/
 
           
@@ -83,6 +88,20 @@ namespace HW_7_MusicPortal.Controllers
             return View(viewModelTrack);
         }
 
-       
+
+        public async Task<ActionResult> Language(string Culture)
+        {
+
+
+            
+            Response.Cookies.Append("lang", Culture);
+
+            _logger.LogInformation($"_----------->>>>>{Culture}");
+            return RedirectToAction("Index");
+
+
+
+        }
+
     }
 }

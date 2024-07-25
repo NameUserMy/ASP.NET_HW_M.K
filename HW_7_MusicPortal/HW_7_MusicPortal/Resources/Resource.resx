@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNotConfirm" xml:space="preserve">
+    <value>Ваш аккаунт не подтвкрждён...</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="AddGenre" xml:space="preserve">
+    <value>Добавить Жанр</value>
+  </data>
+  <data name="AddTrack" xml:space="preserve">
+    <value>Добавить трек</value>
+  </data>
+  <data name="Album" xml:space="preserve">
+    <value>Альбом</value>
+  </data>
+  <data name="AlbumHasAlready" xml:space="preserve">
+    <value>Альбом уже есть</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="AlbumOnly" xml:space="preserve">
+    <value>Альбом только в жанр-&gt; Категория -&gt; Исполнитель</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="AllAlbum" xml:space="preserve">
+    <value>Альбомы</value>
+  </data>
+  <data name="AllGenre" xml:space="preserve">
+    <value>Жанры</value>
+  </data>
+  <data name="AllPerformer" xml:space="preserve">
+    <value>Исполнители</value>
+  </data>
+  <data name="AllTrack" xml:space="preserve">
+    <value>Треки</value>
+  </data>
+  <data name="Block" xml:space="preserve">
+    <value>Блокировать</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="CategoryHasAlready" xml:space="preserve">
+    <value>Категория уже eсть</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="CategoryOnlyInGnere" xml:space="preserve">
+    <value>Категорию добавить можно только в жанр</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="CheckLogin" xml:space="preserve">
+    <value>мин 3 буквы 2 цифры, мин 10 макс 20 символов</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="ChoiseAlbum" xml:space="preserve">
+    <value>Выбор Альбома</value>
+  </data>
+  <data name="ChoiseCategoty" xml:space="preserve">
+    <value>Выбор Категории</value>
+  </data>
+  <data name="ChoiseGenre" xml:space="preserve">
+    <value>Выбор Жанра</value>
+  </data>
+  <data name="ChoisePerformer" xml:space="preserve">
+    <value>Выбор  исполнителя</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="Confirm Password" xml:space="preserve">
+    <value>Подтвердите пароль</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="EditGenre" xml:space="preserve">
+    <value>Редактировать Жанр</value>
+  </data>
+  <data name="EditTrack" xml:space="preserve">
+    <value>Редактировать Трек</value>
+  </data>
+  <data name="Enter" xml:space="preserve">
+    <value>Вход</value>
+  </data>
+  <data name="Enter system" xml:space="preserve">
+    <value>Войти в систему</value>
+  </data>
+  <data name="Genre" xml:space="preserve">
+    <value>Жанр</value>
+  </data>
+  <data name="GenreHasAlready" xml:space="preserve">
+    <value>Жанр Уже eсть</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="GenreSimbol" xml:space="preserve">
+    <value>от 3 до 10 символов</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Привет</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Домой</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="Logged" xml:space="preserve">
+    <value>Вы вошли как</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Авторизоваться</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="MessageGuest" xml:space="preserve">
+    <value>Войдите или зарегистрируйтесь</value>
+  </data>
+  <data name="MusicMenegment" xml:space="preserve">
+    <value>Музыка</value>
+  </data>
+  <data name="Nick" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="NickName" xml:space="preserve">
+    <value>Такое имя уже используется</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Performer" xml:space="preserve">
+    <value>Исполнитель</value>
+  </data>
+  <data name="PerformerHasAlready" xml:space="preserve">
+    <value>Исполнитель уже eсть</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PerformerOnlyInCategory" xml:space="preserve">
+    <value>Исполнитель добавить можно   только в категории</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="PerformerSimbol" xml:space="preserve">
+    <value>от 3 до 20 символов</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="ProccesMessage" xml:space="preserve">
+    <value>В процессе</value>
+    <comment>In progress</comment>
+  </data>
+  <data name="Registr" xml:space="preserve">
+    <value>Регистрация</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>Обязательное поле</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="ToConfirm" xml:space="preserve">
+    <value>Подтвердить</value>
+  </data>
+  <data name="TrackAdd" xml:space="preserve">
+    <value>Выбириту все пункты</value>
+    <comment>Error message</comment>
+  </data>
+  <data name="UploadComposition" xml:space="preserve">
+    <value>Загрузить композицию</value>
+  </data>
+  <data name="UserMenegment" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Пользователь не найден</value>
+  </data>
+</root>

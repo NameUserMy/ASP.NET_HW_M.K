@@ -3,9 +3,12 @@ using Microsoft.AspNetCore.Mvc;
 using MusicPortal.BLL.Interfaces;
 using MusicPortal.BLL.DTO;
 using HW_7_MusicPortal.Models.FormModels;
+using HW_7_MusicPortal.Filters;
 
 namespace HW_7_MusicPortal.Controllers
 {
+
+    [Culture]
     public class RegistrationController : Controller
     {
         private readonly ILogger<RegistrationController>? _logger;

@@ -8,7 +8,7 @@ namespace HW_7_MusicPortal.Models
         public int TrackId { get; set; }
         public IEnumerable<TrackDTO>? Tracks { get; set; }
         public PageViewModel? Page { get; set; }
-
+        public EditTrackViewModel() { }
         public EditTrackViewModel (IEnumerable<TrackDTO>? tracks, PageViewModel? page)
         {
             Tracks = tracks;

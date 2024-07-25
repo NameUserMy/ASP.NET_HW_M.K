@@ -1,9 +1,12 @@
-﻿using HW_7_MusicPortal.Models.FormModels;
+﻿using HW_7_MusicPortal.Filters;
+using HW_7_MusicPortal.Models.FormModels;
 using Microsoft.AspNetCore.Mvc;
 using MusicPortal.BLL.Interfaces;
 
 namespace HW_7_MusicPortal.Controllers
 {
+
+    [Culture]
     public class LogginController : Controller
     {
         private readonly ILogger<RegistrationController>? _logger;
@@ -46,7 +49,7 @@ namespace HW_7_MusicPortal.Controllers
             if (!_logginService.IsSuccessful(userLoggin.Password))
             {
 
-                ModelState.AddModelError("", "User not found");
+                ModelState.AddModelError("", Resources.Resource.UserNotFound);
 
             }
             if (ModelState.IsValid)

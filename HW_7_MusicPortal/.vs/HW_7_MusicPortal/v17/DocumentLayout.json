@@ -3,56 +3,8 @@
   "WorkspaceRootPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\views\\music\\addtrack.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\views\\music\\addtrack.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\views\\music\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\views\\music\\addgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\views\\music\\aditgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\views\\music\\aditgenre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\teghelper\\mainmenutaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\teghelper\\mainmenutaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\controllers\\administrator\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\controllers\\administrator\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\views\\music\\edittrack.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\views\\music\\edittrack.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD93BF50-AD71-4F9B-82BA-1BD2D4C5B656}|MusicPortal.DAL\\MusicPortal.DAL.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\musicportal.dal\\interfaces\\iinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD93BF50-AD71-4F9B-82BA-1BD2D4C5B656}|MusicPortal.DAL\\MusicPortal.DAL.csproj|solutionrelative:musicportal.dal\\interfaces\\iinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\wwwroot\\css\\portal\\musicmanagement.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\wwwroot\\css\\portal\\musicmanagement.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\models\\edittrackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\models\\edittrackviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\teghelper\\paginationstaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\teghelper\\paginationstaghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\wwwroot\\css\\portal\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\wwwroot\\css\\portal\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|e:\\kashag\\programming\\aspcore_ajax\\hw_7_musicportal\\hw_7_musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2B2DE6C-9160-4CA3-845B-E17A85A62733}|HW_7_MusicPortal\\HW_7_MusicPortal.csproj|solutionrelative:hw_7_musicportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,175 +14,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddTrack.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AddTrack.cshtml",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Views\\Music\\AddTrack.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AddTrack.cshtml",
-              "RelativeToolTip": "HW_7_MusicPortal\\Views\\Music\\AddTrack.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T15:24:03.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddGenre.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AddGenre.cshtml",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Views\\Music\\AddGenre.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AddGenre.cshtml",
-              "RelativeToolTip": "HW_7_MusicPortal\\Views\\Music\\AddGenre.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T15:24:01.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainMenuTagHelper.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\TegHelper\\MainMenuTagHelper.cs",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\TegHelper\\MainMenuTagHelper.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\TegHelper\\MainMenuTagHelper.cs",
-              "RelativeToolTip": "HW_7_MusicPortal\\TegHelper\\MainMenuTagHelper.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAswD4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:18:46.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IInformation.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\MusicPortal.DAL\\Interfaces\\IInformation.cs",
-              "RelativeDocumentMoniker": "MusicPortal.DAL\\Interfaces\\IInformation.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\MusicPortal.DAL\\Interfaces\\IInformation.cs",
-              "RelativeToolTip": "MusicPortal.DAL\\Interfaces\\IInformation.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA7wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:15:02.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditTrackViewModel.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Models\\EditTrackViewModel.cs",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Models\\EditTrackViewModel.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Models\\EditTrackViewModel.cs",
-              "RelativeToolTip": "HW_7_MusicPortal\\Models\\EditTrackViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T15:05:32.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EditTrack.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\EditTrack.cshtml",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Views\\Music\\EditTrack.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\EditTrack.cshtml",
-              "RelativeToolTip": "HW_7_MusicPortal\\Views\\Music\\EditTrack.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAEwBoAAABnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T15:04:38.696Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HW_7_MusicPortal\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAlAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Program.cs",
+              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Program.cs",
+              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Program.cs",
+              "RelativeToolTip": "HW_7_MusicPortal\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:48:56.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Views\\Home\\Index.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "HW_7_MusicPortal\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T15:01:36.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AditGenre.cshtml",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AditGenre.cshtml",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Views\\Music\\AditGenre.cshtml",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Views\\Music\\AditGenre.cshtml",
-              "RelativeToolTip": "HW_7_MusicPortal\\Views\\Music\\AditGenre.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-24T14:37:38.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PaginationsTagHelper.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\TegHelper\\PaginationsTagHelper.cs",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\TegHelper\\PaginationsTagHelper.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\TegHelper\\PaginationsTagHelper.cs",
-              "RelativeToolTip": "HW_7_MusicPortal\\TegHelper\\PaginationsTagHelper.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:56:38.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MusicController.cs",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\Administrator\\MusicController.cs",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\Controllers\\Administrator\\MusicController.cs",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\Controllers\\Administrator\\MusicController.cs",
-              "RelativeToolTip": "HW_7_MusicPortal\\Controllers\\Administrator\\MusicController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T14:45:32.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "musicManagement.css",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
-              "RelativeToolTip": "HW_7_MusicPortal\\wwwroot\\css\\Portal\\musicManagement.css",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-24T14:40:47.319Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "admin.css",
-              "DocumentMoniker": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
-              "RelativeDocumentMoniker": "HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
-              "ToolTip": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_7_MusicPortal\\HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
-              "RelativeToolTip": "HW_7_MusicPortal\\wwwroot\\css\\Portal\\admin.css",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-24T14:39:50.403Z",
+              "WhenOpened": "2024-07-25T17:20:41.758Z",
               "EditorCaption": ""
             }
           ]

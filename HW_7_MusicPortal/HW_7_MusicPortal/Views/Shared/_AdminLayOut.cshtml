@@ -16,18 +16,18 @@
     <main class="mainPortal">
         <header class="item1 font-Setting general-background-color admin-border">
             <div class="head">
-                <div class="user">You are logged in as Admin</div>
+                <div class="user">@Resource.Logged</div>
                 <div class="logo">Logo</div>
-                <div class="head-menu"><a asp-action="Index" asp-controller="Home">Home</a></div>
+                <div class="head-menu"><a asp-action="Index" asp-controller="Home">@Resource.Home</a></div>
             </div>
         </header>
         <aside class="item2 general-background-color admin-menu admin-border">
             <div class="mein-menu padding-menu font-size-menu">
                 <span>
-                    <a asp-action="Admin" asp-controller="Admin"> Info</a>
+                    <a asp-action="Admin" asp-controller="Admin">@Resource.Info</a>
                 </span>
                 <span>
-                    <a asp-action="UserMenegment" asp-controller="Admin">User menegment</a>
+                    <a asp-action="UserMenegment" asp-controller="Admin">@Resource.UserMenegment</a>
                 </span>
                 <ul >
                     <li >
@@ -36,17 +36,17 @@
 
                         <ul>
                             <li>
-                                <a asp-action="AddTrack" asp-controller="Music"> Add Track</a>
+                                <a asp-action="AddTrack" asp-controller="Music">@Resource.AddTrack</a>
                             </li>
                             <li>
-                                <a asp-action="AddGenre" asp-controller="Music">Add genre </a>
+                                <a asp-action="AddGenre" asp-controller="Music">@Resource.AddGenre</a>
                             </li>
                             <li>
-                                <a asp-action="AditGenre" asp-controller="Music"> Edit Genre...</a>
+                                <a asp-action="EditGenre" asp-controller="Music">@Resource.EditGenre</a>
                             </li>
 
                             <li>
-                                <a asp-action="EditTrack" asp-controller="Music"> Edit Track</a>
+                                <a asp-action="EditTrack" asp-controller="Music">@Resource.EditTrack</a>
                             </li>
                            
                             

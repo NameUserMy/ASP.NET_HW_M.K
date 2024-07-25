@@ -1,4 +1,5 @@
-﻿using HW_7_MusicPortal.Models;
+﻿using HW_7_MusicPortal.Filters;
+using HW_7_MusicPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using MusicPortal.BLL.DTO;
@@ -8,6 +9,7 @@ using MusicPortal.DAL.Entities;
 
 namespace HW_7_MusicPortal.Controllers.Administrator
 {
+    [Culture]
     public class AdminController : Controller
     {
        
