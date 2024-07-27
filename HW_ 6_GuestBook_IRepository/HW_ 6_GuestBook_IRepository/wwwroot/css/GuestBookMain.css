@@ -3,6 +3,7 @@
 @import url("GuestBook/registrationForm.css");
 @import url("GuestBook/logginForm.css");
 @import url("GuestBook/publishMessage.css");
+@import url("GuestBook/pagination.css");
 
 html, body {
     height: 100%;

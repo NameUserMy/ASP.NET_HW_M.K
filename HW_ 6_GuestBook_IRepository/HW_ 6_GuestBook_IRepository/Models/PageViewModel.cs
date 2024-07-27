@@ -1,4 +1,7 @@
-﻿namespace HW__6_GuestBook_IRepository.Models
+﻿using HW__6_GuestBook_IRepository.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace HW__6_GuestBook_IRepository.Models
 {
     public class PageViewModel
     {
@@ -13,6 +16,20 @@
             TotalPages = (int)Math.Ceiling(count/(double)pageSize);
         
         }
-
     }
 }
+//List<MessageViewModel> messages = new List<MessageViewModel>();
+
+//var resultMessage = await Task.Run(() => _context.messages.Include(messages => messages.User).AsEnumerable());
+
+//foreach (var message in resultMessage)
+//{
+//    messages.Add(new MessageViewModel
+//    {
+
+//        UserName = message.User.NickName,
+//        Message = message.UserMessage,
+//        Theme = message.Theme,
+//        DOP = message.DOP.ToString(),
+//    });
+//}

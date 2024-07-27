@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\GuestBook\\message.css"
     },
     {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\GuestBook\\pagination.css"
+    },
+    {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\css\\GuestBook\\publishMessage.css",
       "PackagePath": "staticwebassets\\css\\GuestBook\\publishMessage.css"
     },
@@ -27,6 +31,14 @@
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\js\\modules\\GetMethods.js",
+      "PackagePath": "staticwebassets\\js\\modules\\GetMethods.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\js\\modules\\PostMethods.js",
+      "PackagePath": "staticwebassets\\js\\modules\\PostMethods.js"
     },
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\HW_ 6_GuestBook_IRepository\\HW_ 6_GuestBook_IRepository\\wwwroot\\js\\site.js",

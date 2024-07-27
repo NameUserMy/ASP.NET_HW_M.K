@@ -1,4 +1,5 @@
-﻿using HW__6_GuestBook_IRepository.Models;
+﻿using AutoMapper;
+using HW__6_GuestBook_IRepository.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace HW__6_GuestBook_IRepository.Data.Repository
@@ -46,11 +47,10 @@ namespace HW__6_GuestBook_IRepository.Data.Repository
             return true;
         }
 
-        public async Task<IQueryable<Message>> GetAllMessageAsync()
+        public async Task<IEnumerable<Message>> GetAllMessageAsync()
         {
-            IQueryable<Message> messages= _context.messages.Include(messages=>messages.User);
-
-            return messages;
+   
+            return await Task.Run(()=> _context.messages.Include(messages => messages.User));
         }
 
      
@@ -65,6 +65,12 @@ namespace HW__6_GuestBook_IRepository.Data.Repository
             
         }
 
-       
+        public async Task<IEnumerable<MessageAjax>> GetAllViewMessageAsync()
+        {
+            var conf = new MapperConfiguration(conf => conf.CreateMap<Message, MessageAjax>()
+            .ForMember("NickName",e=>e.MapFrom(e=>e.User.NickName)));
+            var mapper = new Mapper(conf);
+            return mapper.Map<IEnumerable<Message>, IEnumerable<MessageAjax>>(await Task.Run(()=>_context.messages.Include(messages => messages.User)));
+        }
     }
 }

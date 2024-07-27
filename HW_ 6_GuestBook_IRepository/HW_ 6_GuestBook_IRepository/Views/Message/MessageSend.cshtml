@@ -1,7 +1,7 @@
 ﻿@model ViewModelPublish;
 
 
-<form asp-action="MessageSend" class="FormPublish boxShadow borderR">
+<form   id="messagSend"  method="post" class="FormPublish boxShadow borderR">
    
     <span class="info">
         <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
@@ -19,7 +19,7 @@
 
     <div class="field-group">
         <span>
-            <input type="submit" value="Опубковать" class="info borderR" />
+            <input type="button" id="messagSendBtn" value="Опубковать" class="info borderR" />
         </span>
     </div>
 </form>

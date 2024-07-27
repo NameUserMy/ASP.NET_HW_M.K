@@ -2,9 +2,11 @@
 {
     public class ViewModelMessage
     {
-       public IEnumerable<Message>? Messages { get; }
+       public IEnumerable<MessageAjax>? Messages { get; }
+      
         public PageViewModel? PageViewModel { get; }
-        public ViewModelMessage(IEnumerable<Message> message, PageViewModel pageViewModel) { 
+        public ViewModelMessage() { }
+        public ViewModelMessage(IEnumerable<MessageAjax> message, PageViewModel pageViewModel) { 
         
             Messages= message;
             PageViewModel= pageViewModel;

@@ -34,7 +34,8 @@ namespace HW__6_GuestBook_IRepository.Controllers
             {
 
                 var userCheck = await _repository.GetUserByLogginAsync(userLoggin.Login);
-                _encryption.IncomeSalt = userCheck.Salt;
+               
+                    _encryption.IncomeSalt = userCheck.Salt;
                     _encryption.Pass=userLoggin.Password;
                     _encryption.DecryptionPass();
                     _logger.LogInformation($"Decrp {_encryption.DecryptionPass()}  Db {userCheck.Password} ");

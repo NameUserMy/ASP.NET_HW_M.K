@@ -4,54 +4,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-  @foreach (var info in Model.Messages)
-  {
-
-    <div class="flexContainerMessage ">
-        <div class="mainMessage ">
-            <div class="theme boxShadow">
-                <h2>Тема</h2><span>@Html.DisplayFor(modelItem => info.Theme)</span>
-            </div>
-            <div class="containerInfo">
-                <div class="userInfo">
-                    <p>Автор:</p>
-                    <p>@Html.DisplayFor(modelItem => info.User.NickName)</p>
-                    <p>Дата публикации:</p>
-                    <p>@Html.DisplayFor(modelItem => info.DOP)</p>
-                </div>
-                <div class="message">
-                    @Html.DisplayFor(modelItem => info.UserMessage)
-                </div>
-            </div>
-        </div>
-    </div>
-  }
-
-
- <div id="pog">
-
-
-    @if (Model.PageViewModel.HasPreviousPage)
-    {
-        <a asp-action="Index" asp-route-page="@(Model.PageViewModel.PageNumber -1)">
-            <p class="text-danger">Back</p>
-        </a>
-
-    }
-
-    @if (Model.PageViewModel.NextPage)
-    {
-        <a asp-action="Index" asp-route-page="@(Model.PageViewModel.PageNumber +1)">
-            <p class="text-danger">Forvard</p>
-
-        </a>
-
-    }
 
 
 
- </div>
-  
+
+
   
  
 

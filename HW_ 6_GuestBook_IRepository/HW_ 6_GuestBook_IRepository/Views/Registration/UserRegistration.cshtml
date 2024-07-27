@@ -2,7 +2,7 @@
 @model ViewModelRegistration
 
 
-<form asp-action="UserRegistration" class="FormR borderR boxShadow">
+<form method="post" id="userRegistration" class="FormR borderR boxShadow">
     <span class="info">
         <div asp-validation-summary="ModelOnly" class="info text-danger"></div>
     </span>
@@ -28,7 +28,7 @@
     </div>
     <div class="field-group">
         <span>
-            <input type="submit" value="Зарегистрироваться" class="info borderR" />
+            <input type="button" id="userRegistrationBtn" value="Зарегистрироваться" class="info borderR" />
         </span>
     </div>
 </form>

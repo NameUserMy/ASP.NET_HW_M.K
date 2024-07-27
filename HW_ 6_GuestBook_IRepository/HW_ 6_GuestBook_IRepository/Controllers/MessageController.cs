@@ -25,17 +25,18 @@ namespace HW__6_GuestBook_IRepository.Controllers
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> MessageSend(ViewModelPublish incommingMessage)
         {
 
-           if(ModelState.IsValid) {
-             await  _repository.CreateMessageAsync(new Message { UserMessage=incommingMessage.Message,Theme=incommingMessage.Theme}, HttpContext.Session.GetString("login"));
-              await  _repository.SaveChangeAsync();
-            return RedirectToAction("Index","Home");
-            
+            if (ModelState.IsValid)
+            {
+                await _repository.CreateMessageAsync(new Message { UserMessage = incommingMessage.Message, Theme = incommingMessage.Theme }, HttpContext.Session.GetString("login"));
+                await _repository.SaveChangeAsync();
+                string response = "All done";
+                return Json(response);
+
             }
-            return View(incommingMessage);
+            return Problem("something wrong");
         }
     }
 }

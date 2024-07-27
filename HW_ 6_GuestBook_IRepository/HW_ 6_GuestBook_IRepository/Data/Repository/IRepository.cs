@@ -4,7 +4,8 @@ namespace HW__6_GuestBook_IRepository.Data.Repository
 {
     public interface IRepository
     {
-        Task<IQueryable<Message>> GetAllMessageAsync();
+        Task<IEnumerable<Message>> GetAllMessageAsync();
+        Task<IEnumerable<MessageAjax>> GetAllViewMessageAsync();
         Task<User> GetUserByLogginAsync(string loggin);
         Task CreateUserAsync(User user);
         Task CreateMessageAsync(Message message,string login);

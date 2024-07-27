@@ -1,0 +1,26 @@
+.pag-contener{
+
+    text-align:center;
+    align-content:center;
+    width:100%;
+    
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+.setting{
+
+    font-size:2em;
+    color:orange;
+    font-weight:800;
+    text-shadow:2px 2px 2px black;
+    cursor:pointer;
+}
+#left{
+
+margin-right:1%;
+
+}
+#right {
+    margin-left: 1%;
+}

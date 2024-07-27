@@ -18,13 +18,15 @@
                 <h2><a asp-action="Logout" asp-controller="Loggin" class="button">Выйти</a></h2>
                 <h2><a asp-action="UserRegistration" asp-controller="Registration" class="button">Регистрация</a></h2>
                 <h2><a asp-action="MessageSend" asp-controller="Message" class="button">Написать сообщение</a></h2>
-                <h2><a asp-action="Index" asp-controller="Home" class="button">Дом</a></h2>
+                <h2><a asp-action="Index" id="testAjax" asp-controller="Home" class="button">Дом</a></h2>
             </div>
         </aside>
         <section>
             <div class="messageContanier">
                 @RenderBody()
+               
             </div>
+           
             
         </section>
        
@@ -32,7 +34,7 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script type="module" src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

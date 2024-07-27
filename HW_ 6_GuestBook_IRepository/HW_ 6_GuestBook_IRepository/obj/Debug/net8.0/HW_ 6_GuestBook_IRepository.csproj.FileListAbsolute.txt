@@ -125,3 +125,5 @@ E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_I
 E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_IRepository\obj\Debug\net8.0\HW_ 6_GuestBook_IRepository.pdb
 E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_IRepository\obj\Debug\net8.0\HW_ 6_GuestBook_IRepository.genruntimeconfig.cache
 E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_IRepository\obj\Debug\net8.0\ref\HW_ 6_GuestBook_IRepository.dll
+E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_IRepository\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\KASHAG\programming\ASPCORE_AJAX\HW_ 6_GuestBook_IRepository\HW_ 6_GuestBook_IRepository\bin\Debug\net8.0\AutoMapper.dll

@@ -41,18 +41,17 @@ namespace HW__6_GuestBook_IRepository.Controllers
 
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public IActionResult UserRegistration(ViewModelRegistration incomminUser)
         {
-
-
-            if (incomminUser.Login.ToLower() == "login"||incomminUser.NickName.ToLower()=="nickName"
-                ||incomminUser.Password.ToLower()=="password") {
+          
+            if (incomminUser.Login.ToLower() == "login" || incomminUser.NickName.ToLower() == "nickName"
+                || incomminUser.Password.ToLower() == "password")
+            {
 
                 ModelState.AddModelError("", "The data is not correct");
             }
 
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
 
                 _encryption.Pass = incomminUser.Password;
@@ -67,11 +66,11 @@ namespace HW__6_GuestBook_IRepository.Controllers
                 _repository.SaveChangeAsync();
 
 
-                return RedirectToAction("Loggin","Loggin");
+                return Json(new { response = "Alldone" });
 
 
             }
-            return View(incomminUser);
+            return Problem("Something wrong");
         }
 
 
