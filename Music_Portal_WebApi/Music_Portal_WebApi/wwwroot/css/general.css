@@ -1,0 +1,21 @@
+
+
+
+
+
+select {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+option {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+.boxShadow {
+    box-shadow: 3px 3px 10px black, -3px -3px 10px black;
+}

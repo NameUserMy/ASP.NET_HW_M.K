@@ -1,0 +1,34 @@
+﻿.GTP-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+.solodBorder {
+    border: 1px solid orange;
+}
+
+#genre-contener {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:repeat(12,1fr);
+    row-gap:1%;
+    column-gap: 1%;
+    margin: 1%;
+}
+
+
+
+
+
+
+.custom-input{
+
+    outline:none;
+    border:none;
+
+}
+
+
+
+

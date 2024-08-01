@@ -1,0 +1,24 @@
+﻿
+
+.form-GP {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 2%;
+    column-gap: 2%;
+    padding: 1%;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    border-radius: 3%;
+}
+
+.font-setting-form {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.elemet-setting {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

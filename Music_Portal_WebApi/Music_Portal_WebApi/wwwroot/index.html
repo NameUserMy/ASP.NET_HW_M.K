@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./Js/main.js" type="module"></script>
+    <title>Admin</title>
+</head>
+
+<body>
+
+    <main class="mainPortal">
+        <header class="item1 ">
+            <div>
+                <div class="user">User</div>
+                <div class="logo">Logo</div>
+                <div>Home</a></div>
+            </div>
+        </header>
+        <aside class="item2 ">
+            <div>
+                <span>
+                    <a>Info</a>
+                </span>
+                <ul class="menu">
+                    <li class="header">
+                        User menegment
+                    </li>
+
+                    <ul id="userMenu">
+                        <li class="button" id="user-btn">
+                            Users
+                        </li>
+                        <li class="button" id="user-btn-add">
+                            Add User
+                        </li>
+                        <li class="button" id="user-btn-edit">
+                            Edit User
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="menu">
+                    <li class="header">
+                        Music menegment
+                    </li>
+
+                    <ul id="musicMenu">
+
+                        <li class="button">
+                            Add Genre
+                        </li>
+                        <li class="button">
+                            Add Performers
+                        </li>
+                        <li class="button" id="AddTrack">
+                            Add track
+                        </li>
+                        <li class="button">
+                            <a asp-action="EditGenre" asp-controller="Music">Edit Genre</a>
+                        </li>
+
+                        <li class="button">
+                            <a asp-action="EditTrack" asp-controller="Music">Edit Track</a>
+                        </li>
+                        <li class="button">
+                            <a asp-action="EditTrack" asp-controller="Music">Edit Performers</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+        <section class="item3" id="RenderBody">
+           
+        </section>
+        <footer class="item4 ">
+            &#9400 Meloman Portal
+        </footer>
+    </main>
+
+
+</body>
+
+</html>

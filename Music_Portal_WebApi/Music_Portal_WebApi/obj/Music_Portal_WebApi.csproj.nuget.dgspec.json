@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\Music_Portal_WebApi.csproj": {}
+  },
+  "projects": {
+    "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\MusicPortal.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\MusicPortal.BLL.csproj",
+        "projectName": "MusicPortal.BLL",
+        "projectPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\MusicPortal.BLL.csproj",
+        "packagesPath": "C:\\Users\\Work_Man\\.nuget\\packages\\",
+        "outputPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Work_Man\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\MusicPortal.DAL.csproj": {
+                "projectPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\MusicPortal.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\MusicPortal.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\MusicPortal.DAL.csproj",
+        "projectName": "MusicPortal.DAL",
+        "projectPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\MusicPortal.DAL.csproj",
+        "packagesPath": "C:\\Users\\Work_Man\\.nuget\\packages\\",
+        "outputPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Work_Man\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\Music_Portal_WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\Music_Portal_WebApi.csproj",
+        "projectName": "Music_Portal_WebApi",
+        "projectPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\Music_Portal_WebApi.csproj",
+        "packagesPath": "C:\\Users\\Work_Man\\.nuget\\packages\\",
+        "outputPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Work_Man\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\MusicPortal.BLL.csproj": {
+                "projectPath": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\MusicPortal.BLL\\MusicPortal.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

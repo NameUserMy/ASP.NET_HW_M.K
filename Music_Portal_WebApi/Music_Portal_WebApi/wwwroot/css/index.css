@@ -1,0 +1,77 @@
+@import url(./button.css);
+@import url(./headerMenu.css);
+@import url(./menu.css);
+@import url(./userConfirm.css);
+@import url(./forms/userForm.css);
+@import url(./forms/FormTrack.css);
+@import url(./forms/formGP.css);
+@import url(./general.css);
+@import url(./GTPForm.css);
+
+
+html, body {
+    height: 100%;
+    align-content: center;
+    margin: 0;
+   
+}
+.mainPortal {
+    display: grid;
+    height: 98%;
+    width: 90%;
+    grid-template-rows: .1fr 1fr .1fr;
+    grid-template-columns: .2fr 1fr;
+    grid-template-areas:
+        'header header'
+        'menu content'
+        'fotter fotter';
+   row-gap: 10px;
+   column-gap: 10px;
+   margin-left: auto;
+   margin-right: auto;
+
+   
+}
+
+.item1 {
+    grid-area: header;
+    background-color: bisque;
+}
+.item2 {
+    grid-area: menu;
+   
+   
+    
+}
+.item3 {
+    display:grid;
+   
+    grid-area: content;
+    /*background-color:darkslategrey;*/
+    
+       
+}
+
+.item4 {
+    grid-area: fotter;
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+
+.name-logo{
+
+   
+}
+
+.name-logo::before {
+  content: '\1D10B';
+  font-size:1.8em;
+  
+
+}

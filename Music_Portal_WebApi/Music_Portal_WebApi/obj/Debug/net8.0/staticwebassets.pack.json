@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Js\\main.js",
+      "PackagePath": "staticwebassets\\Js\\main.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Js\\modules\\Buttons.js",
+      "PackagePath": "staticwebassets\\Js\\modules\\Buttons.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Js\\modules\\Pages.js",
+      "PackagePath": "staticwebassets\\Js\\modules\\Pages.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Js\\modules\\Request.js",
+      "PackagePath": "staticwebassets\\Js\\modules\\Request.js"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\GTPForm.css",
+      "PackagePath": "staticwebassets\\css\\GTPForm.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\button.css",
+      "PackagePath": "staticwebassets\\css\\button.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\forms\\FormTrack.css",
+      "PackagePath": "staticwebassets\\css\\forms\\FormTrack.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\forms\\formGP.css",
+      "PackagePath": "staticwebassets\\css\\forms\\formGP.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\forms\\userForm.css",
+      "PackagePath": "staticwebassets\\css\\forms\\userForm.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\general.css",
+      "PackagePath": "staticwebassets\\css\\general.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\headerMenu.css",
+      "PackagePath": "staticwebassets\\css\\headerMenu.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\userConfirm.css",
+      "PackagePath": "staticwebassets\\css\\userConfirm.css"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\html\\AddGenre.html",
+      "PackagePath": "staticwebassets\\html\\AddGenre.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\html\\AddPerf.html",
+      "PackagePath": "staticwebassets\\html\\AddPerf.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\html\\AddTrack.html",
+      "PackagePath": "staticwebassets\\html\\AddTrack.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\html\\EditUserForm.html",
+      "PackagePath": "staticwebassets\\html\\EditUserForm.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\html\\UserForm.html",
+      "PackagePath": "staticwebassets\\html\\UserForm.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\music\\Rock\\Test\\ Harley-Davidson.mp3",
+      "PackagePath": "staticwebassets\\music\\Rock\\Test\\ Harley-Davidson.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Music_Portal_WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Music_Portal_WebApi.props",
+      "PackagePath": "build\\Music_Portal_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Music_Portal_WebApi.props",
+      "PackagePath": "buildMultiTargeting\\Music_Portal_WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Music_Portal_WebApi.props",
+      "PackagePath": "buildTransitive\\Music_Portal_WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

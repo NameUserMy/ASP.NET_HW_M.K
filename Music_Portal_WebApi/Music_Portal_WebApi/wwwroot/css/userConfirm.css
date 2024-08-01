@@ -1,0 +1,49 @@
+.users-confirm-form {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+.solodBorder {
+    border: 1px solid orange;
+
+}
+
+#user-confirm-contener {
+    display: grid;
+    grid-template-areas:
+        'unconfirm confirm';
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1%;
+    margin: 1%;
+}
+
+.itemConfirm {
+    display: grid;
+    grid-area: confirm;
+    row-gap: 1.5%;
+    grid-template-rows: repeat(16, 1fr);
+
+
+}
+
+.itemUnconfirm {
+    display: grid;
+    grid-area: unconfirm;
+    row-gap: 1.5%;
+    grid-template-rows: repeat(16, 1fr);
+
+}
+
+
+
+.nick-name{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black ;
+    user-select: none;
+}
+

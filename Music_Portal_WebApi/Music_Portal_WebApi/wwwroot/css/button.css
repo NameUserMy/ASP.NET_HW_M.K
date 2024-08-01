@@ -1,0 +1,114 @@
+.button {
+    height: 30px;
+    width: 170px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black ;
+    user-select: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+  
+    left:0;
+    transition-property: left;
+    transition-duration: 700ms;
+   
+    
+}
+.button:hover{
+   
+    left:15px;
+}
+.confirm-button{
+
+    border-top-left-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black ;
+    border-bottom-right-radius:0px;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+.confirm-button:hover{
+
+    box-shadow: 1px -0.5px 5px forestgreen ;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+.delete-button{
+
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px -0.5px 5px black;
+    border-top-left-radius:0px;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+.delete-button:hover{
+
+    box-shadow: 1px -0.5px 5px rgba(255,0,0,0.8) ;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+}
+.block-button{
+
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+.block-button:hover{
+
+    box-shadow: 1px -0.5px 5px orange ;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#userReg-Btn {
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 1px -0.5px 5px rgba(34,139,34,0);
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+    #userReg-Btn:hover {
+        box-shadow: 1px -0.5px 5px rgba(34,139,34,1);
+    }
+
+#userEdit-Btn {
+    user-select: none;
+    cursor: pointer;
+   
+    box-shadow: 1px -0.5px 5px rgba(34,139,34,0);
+    transition-property:all;
+    transition-duration:500ms;
+}
+
+#userEdit-Btn:hover {
+    box-shadow: 1px -0.5px 5px rgba(34,139,34,1);
+}
+
+
+#addTrack {
+    user-select: none;
+    cursor: pointer;
+    box-shadow: 1px -0.5px 5px rgba(34,139,34,0);
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+    #addTrack:hover {
+        box-shadow: 1px -0.5px 5px rgba(34,139,34,1);
+    }
