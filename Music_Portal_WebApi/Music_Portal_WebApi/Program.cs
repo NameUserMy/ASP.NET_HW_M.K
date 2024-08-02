@@ -1,4 +1,5 @@
 using HW_7_MusicPortal.Services;
+using Music_Portal_WebApi.Services;
 using MusicPortal.BLL.Infrastructure;
 
 
@@ -13,6 +14,7 @@ builder.Services.AddMusicPortalContext("Data Source=./Data/MusicPortal.db");
 builder.Services.AddUOW();
 builder.Services.Admin();
 builder.Services.AddScoped<Encryption>();
+builder.Services.AddScoped<ChangeFileNameService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

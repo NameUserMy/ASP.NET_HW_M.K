@@ -7,6 +7,7 @@
 @import url(./forms/formGP.css);
 @import url(./general.css);
 @import url(./GTPForm.css);
+@import url(./fotter.css);
 
 
 html, body {
@@ -35,7 +36,7 @@ html, body {
 
 .item1 {
     grid-area: header;
-    background-color: bisque;
+    
 }
 .item2 {
     grid-area: menu;
@@ -45,16 +46,12 @@ html, body {
 }
 .item3 {
     display:grid;
-   
     grid-area: content;
-    /*background-color:darkslategrey;*/
-    
-       
 }
 
 .item4 {
     grid-area: fotter;
-    background-color: bisque;
+    
 }
 
 

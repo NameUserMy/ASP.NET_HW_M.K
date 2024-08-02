@@ -44,7 +44,7 @@ namespace MusicPortal.DAL.Repository
 
                 if (targeUpdate != null)
                 {
-                   genre.Title = targeUpdate.Title;
+                   targeUpdate.Title= genre.Title;
                 }
                 else
                 {
@@ -65,7 +65,7 @@ namespace MusicPortal.DAL.Repository
 
                 if (targeUpdate != null)
                 {
-                    track.Title = targeUpdate.Title;
+                    targeUpdate.Title=track.Title;
                 }
                 else
                 {

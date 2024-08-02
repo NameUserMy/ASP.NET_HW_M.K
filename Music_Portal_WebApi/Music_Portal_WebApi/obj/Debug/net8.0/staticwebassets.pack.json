@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Js\\modules\\Request.js"
     },
     {
+      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Rock\\Test\\Harley-Davidson.mp3",
+      "PackagePath": "staticwebassets\\Music\\Rock\\Test\\Harley-Davidson.mp3"
+    },
+    {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\css\\GTPForm.css",
       "PackagePath": "staticwebassets\\css\\GTPForm.css"
     },
@@ -79,10 +83,6 @@
     {
       "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\music\\Rock\\Test\\ Harley-Davidson.mp3",
-      "PackagePath": "staticwebassets\\music\\Rock\\Test\\ Harley-Davidson.mp3"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Music_Portal_WebApi.Microsoft.AspNetCore.StaticWebAssets.props",

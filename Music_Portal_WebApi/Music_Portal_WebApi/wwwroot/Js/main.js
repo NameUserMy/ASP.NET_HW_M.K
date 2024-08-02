@@ -20,23 +20,60 @@ $(document).ready(() => {
     $(`#RenderBody`).on(`mousedown`, ".confirm-button", (e) => {
         let id = $(e.target).attr(`data-info`);
         request.UpdateConfirm(`/api/User/${id}`);
-        buttons.UserMenu($(0).index());
+        buttons.UserMenu(0);
     });
 
     $(`#RenderBody`).on(`mousedown`, ".delete-button", (e) => {
         let id = $(e.target).attr(`data-info`);
         request.DeleteUser(`/api/User/${id}`);
-        buttons.UserMenu($(0).index());
+        buttons.UserMenu(0);
     });
 
-    $(`#RenderBody`).on(`mousedown`, ".performerConfirm", (e) => {
+    //performer
+    $(`#RenderBody`).on(`mousedown`, ".performer-delete-button", (e) => {
         let id = $(e.target).attr(`data-info`);
-
-        console.log(id)
-
-        request.UpdateConfirm(`/api/Performers/${id}`);
-        buttons.UserMenu($(5).index());
+        request.DeletePerformer(`/api/Performers/${id}`);
+        buttons.MusicMenu(5);
     });
+
+    $(`#RenderBody`).on(`mousedown`, ".performe-confirm-button", (e) => {
+
+        let index = $(e.target).parent(`.GTP-form`).index();
+        let parent = $(`.GTP-form`);
+        request.UpdatePerformer(`/api/Performers`, $(e.target).attr(`data-info`), $(parent[index]).find("input").val());
+        buttons.MusicMenu(5);
+    });
+    /** */
+
+    //track
+    $(`#RenderBody`).on(`mousedown`, ".track-delete-button", (e) => {
+        let id = $(e.target).attr(`data-info`);
+        request.DeleteTrack(`/api/Track/${id}`);
+        buttons.MusicMenu(4);
+    });
+    $(`#RenderBody`).on(`mousedown`, ".track-confirm-button", (e) => {
+        let index = $(e.target).parent(`.GTP-form`).index();
+        let parent = $(`.GTP-form`);
+        request.UpdateTrack(`/api/Track`, $(e.target).attr(`data-info`), $(parent[index]).find("input").val());
+        buttons.MusicMenu(4);
+    });
+    //*** */
+
+    //genre
+    $(`#RenderBody`).on(`mousedown`, ".genre-delete-button", (e) => {
+        let id = $(e.target).attr(`data-info`);
+        request.DeleteGenre(`/api/Genre/${id}`);
+        buttons.MusicMenu(3);
+    });
+    $(`#RenderBody`).on(`mousedown`, ".genre-confirm-button", (e) => {
+        let index = $(e.target).parent(`.GTP-form`).index();
+        let parent = $(`.GTP-form`);
+        request.UpdateGenre(`/api/Genre`, $(e.target).attr(`data-info`), $(parent[index]).find("input").val());
+        buttons.MusicMenu(3);
+    });
+    //*** */
+
+
     //form button
     $(`#RenderBody`).on(`mousedown`, "#userReg-Btn", () => {
         request.UserPost("/api/User/");

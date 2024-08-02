@@ -109,6 +109,118 @@
     transition-duration: 500ms;
 }
 
-    #addTrack:hover {
+#addTrack:hover {
         box-shadow: 1px -0.5px 5px rgba(34,139,34,1);
+}
+
+
+.performe-confirm-button {
+    border-top-left-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black;
+    border-bottom-right-radius: 0px;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+.performe-confirm-button:hover {
+    box-shadow: 1px -0.5px 5px forestgreen;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+
+.performer-delete-button {
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px -0.5px 5px black;
+    border-top-left-radius: 0px;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+.performer-delete-button:hover {
+    box-shadow: 1px -0.5px 5px rgba(255,0,0,0.8);
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 10px;
+}
+
+
+
+.track-confirm-button {
+    border-top-left-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black;
+    border-bottom-right-radius: 0px;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+    .track-confirm-button:hover {
+        box-shadow: 1px -0.5px 5px forestgreen;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+
+.track-delete-button {
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px -0.5px 5px black;
+    border-top-left-radius: 0px;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+    .track-delete-button:hover {
+        box-shadow: 1px -0.5px 5px rgba(255,0,0,0.8);
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+    }
+
+
+.genre-confirm-button {
+    border-top-left-radius: 10px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px -0.5px 5px black;
+    border-bottom-right-radius: 0px;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+.genre-confirm-button:hover {
+    box-shadow: 1px -0.5px 5px forestgreen;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+}
+
+.genre-delete-button {
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px -0.5px 5px black;
+    border-top-left-radius: 0px;
+    text-align: center;
+    align-content: center;
+    user-select: none;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1500ms;
+}
+
+    .genre-delete-button:hover {
+        box-shadow: 1px -0.5px 5px rgba(255,0,0,0.8);
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
     }

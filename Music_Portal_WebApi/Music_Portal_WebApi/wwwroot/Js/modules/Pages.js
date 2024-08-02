@@ -106,7 +106,7 @@ class Pages {
         $("#performerSelect").html(this.#performerResponseList());
 
     }
-    async EditGenrePage(url) {
+     async EditGenrePage(url) {
         const headers = {
             "Content-Type": "application/json"
         }
@@ -125,22 +125,37 @@ class Pages {
 
 
     }
-    async EditPerformerPage(url) {
+     async EditPerformerPage(url) {
         const headers = {
             "Content-Type": "application/json"
         }
 
         let temp = await fetch(url, {
-
             method: "Get",
             headers: headers
-
-
         })
 
         this.#performerSelect = await temp.json();
         console.log(this.#performerSelect);
         $("#RenderBody").html(this.#performerPageResponse());
+
+
+    }
+
+
+    async EditTrack(url) {
+        const headers = {
+            "Content-Type": "application/json"
+        }
+
+        let temp = await fetch(url, {
+            method: "Get",
+            headers: headers
+        })
+
+        this.#genreSelect = await temp.json();
+        console.log(this.#genreSelect);
+        $("#RenderBody").html(this.#TrackPageResponse());
 
 
     }
@@ -222,6 +237,7 @@ class Pages {
 
 
     }
+
     #GenrePageResponse() {
 
         let genre = "";
@@ -231,9 +247,10 @@ class Pages {
 
             genreItem += `
              <div class="GTP-form">
-                <input class="nick-name custom-input" value="${this.#genreSelect[key].title}">
-                    <span class="confirm-button" data-info="${this.#genreSelect[key].id}">Comfirm</span>
-                    <span class="delete-button" data-info="${this.#genreSelect[key].id}">Delete</span>
+                    <input class="nick-name custom-input" name="Title" id="Title" value="${this.#genreSelect[key].title}">
+                    <input hidden class="nick-name custom-input" name="Id" id="Id" value="${this.#genreSelect[key].id}">
+                    <span class="genre-confirm-button" data-info="${this.#genreSelect[key].id}">Comfirm</span>
+                    <span class="genre-delete-button" data-info="${this.#genreSelect[key].id}">Delete</span>
               </div>
             
             `
@@ -245,6 +262,33 @@ class Pages {
 
         return genre;
     }
+    #TrackPageResponse() {
+
+        let track = "";
+        let trackItem = "";
+
+        for (let key in this.#genreSelect) {
+
+            trackItem += `
+             <div class="GTP-form">
+                    <input class="nick-name custom-input" name="Title" id="Title" value="${this.#genreSelect[key].title}">
+                    <input hidden class="nick-name custom-input" name="Id" id="Id" value="${this.#genreSelect[key].id}">
+                    <span class="track-confirm-button" data-info="${this.#genreSelect[key].id}">Comfirm</span>
+                    <span class="track-delete-button" data-info="${this.#genreSelect[key].id}">Delete</span>
+              </div>
+            
+            `
+        }
+        track = `<div id = "genre-contener">
+                    ${trackItem}
+                </div>
+        `
+
+        return track;
+
+
+
+    }
     #performerPageResponse() {
 
         let performer = "";
@@ -254,9 +298,10 @@ class Pages {
 
             performerItem += `
              <div class="GTP-form">
-                <input class="nick-name custom-input" value="${this.#performerSelect[key].name}">
-                    <span class="confirm-button performerConfirm" data-info="${this.#performerSelect[key].id}">Comfirm</span>
-                    <span class="delete-button performerDelete" data-info="${this.#performerSelect[key].id}">Delete</span>
+                <input class="nick-name custom-input" name="Name" id="Name" value="${this.#performerSelect[key].name}">
+                <input hidden class="nick-name custom-input" name="Id" id="Id" value="${this.#performerSelect[key].id}">
+                    <span class="performe-confirm-button" data-info="${this.#performerSelect[key].id}">Comfirm</span>
+                    <span class="performer-delete-button" data-info="${this.#performerSelect[key].id}">Delete</span>
               </div>
             
             `

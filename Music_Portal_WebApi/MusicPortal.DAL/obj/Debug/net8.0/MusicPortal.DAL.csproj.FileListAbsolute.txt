@@ -22,3 +22,16 @@ E:\KASHAG\programming\ASPCORE_AJAX\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug
 E:\KASHAG\programming\ASPCORE_AJAX\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\refint\MusicPortal.DAL.dll
 E:\KASHAG\programming\ASPCORE_AJAX\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.pdb
 E:\KASHAG\programming\ASPCORE_AJAX\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\ref\MusicPortal.DAL.dll
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\bin\Debug\net8.0\MusicPortal.DAL.deps.json
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\bin\Debug\net8.0\MusicPortal.DAL.dll
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\bin\Debug\net8.0\MusicPortal.DAL.pdb
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.csproj.AssemblyReference.cache
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.AssemblyInfoInputs.cache
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.AssemblyInfo.cs
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.csproj.CoreCompileInputs.cache
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.sourcelink.json
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.dll
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\refint\MusicPortal.DAL.dll
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\MusicPortal.DAL.pdb
+E:\KASHAG\programming\c++_Git\ASP.NET\Music_Portal_WebApi\MusicPortal.DAL\obj\Debug\net8.0\ref\MusicPortal.DAL.dll

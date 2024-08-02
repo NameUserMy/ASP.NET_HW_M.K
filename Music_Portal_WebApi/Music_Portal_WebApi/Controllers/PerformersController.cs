@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Music_Portal_WebApi.Services;
 using MusicPortal.BLL.DTO;
 using MusicPortal.BLL.Interfaces;
 using MusicPortal.DAL.Interfaces;
@@ -12,9 +13,10 @@ namespace Music_Portal_WebApi.Controllers
         IMusicCradService? _MusicCrud;
         ILogger<PerformersController> _Logger;
         private IWebHostEnvironment? _environment;
-        public PerformersController(IMusicCradService music, IWebHostEnvironment? environment, ILogger<PerformersController> logger) { 
-        
-        
+        private ChangeFileNameService? _changeFileNameService;
+        public PerformersController(IMusicCradService music, IWebHostEnvironment? environment,ChangeFileNameService changeFileName, 
+            ILogger<PerformersController> logger) { 
+            _changeFileNameService= changeFileName;
             _MusicCrud = music;
             _Logger = logger;
             _environment = environment;
@@ -66,7 +68,9 @@ namespace Music_Portal_WebApi.Controllers
 
                 if (Directory.Exists(_environment.WebRootPath + $"\\Music\\{genre.Title}\\{addPerformer.Name}"))
                 {
+                    await _MusicCrud.CreatePerformerAsync(addPerformer);
                     ModelState.AddModelError("", "is alredy");
+                    return Ok(addPerformer);
 
                 }
                 else
@@ -77,46 +81,30 @@ namespace Music_Portal_WebApi.Controllers
                 }
             }
             return BadRequest(ModelState);
-
-
-
-
-
-
-
-
-            if (!ModelState.IsValid)
-            {
-
-                return BadRequest(ModelState);
-            }
-            //await _MusicCrud.CreatePerformerAsync(addPerformer);
-            return Ok(addPerformer);
         }
 
         [HttpPut]
         public async Task<ActionResult<PerformerDTO>> PutPerformerAsync(PerformerDTO addPerformer)
         {
-
-
-
-           
+         
             if (!ModelState.IsValid)
             {
 
                 return BadRequest(ModelState);
             }
+            var oldName= await _MusicCrud.GetPerformerByIdAsync(addPerformer.Id);
+            
+            _changeFileNameService.ChangeDirectoryAsync(oldName.Name,addPerformer.Name);
+            
             await _MusicCrud?.UpdatePerformerAsync(addPerformer);
             return Ok(addPerformer);
         }
-
-
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeletePerformerAsync(int id)
         {
             await _MusicCrud?.DeletePerformerAsync(id);
-            return Ok(new { user = "User is delete" });
+            return Ok(new { performer = "Performer is delete" });
         }
 
     }

@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Music\Test1\**" />
+    <Content Remove="wwwroot\Music\Test1\**" />
+    <EmbeddedResource Remove="wwwroot\Music\Test1\**" />
+    <None Remove="wwwroot\Music\Test1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
@@ -18,10 +25,6 @@
     <Reference Include="MusicPortal.DAL">
       <HintPath>..\..\HW_7_MusicPortal\MusicPortal.DAL\bin\Debug\net8.0\MusicPortal.DAL.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\music\" />
   </ItemGroup>
 
 </Project>

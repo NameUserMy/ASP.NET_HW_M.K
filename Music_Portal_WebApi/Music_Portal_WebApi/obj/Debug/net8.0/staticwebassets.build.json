@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "didmIxsK1LWKkBF80E24YyqF2YxDJ5H+35m1SnJdC0Q=",
+  "Hash": "PuWBvSwPdmZg8DlTgYeYODWH+7UKoSkHLMGmEqkQIdk=",
   "Source": "Music_Portal_WebApi",
   "BasePath": "_content/Music_Portal_WebApi",
   "Mode": "Default",
@@ -397,12 +397,12 @@
       "OriginalItemSpec": "wwwroot\\Js\\modules\\Request.js"
     },
     {
-      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\music\\Rock\\Test\\ Harley-Davidson.mp3",
+      "Identity": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\Music\\Rock\\Test\\Harley-Davidson.mp3",
       "SourceId": "Music_Portal_WebApi",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\KASHAG\\programming\\ASPCORE_AJAX\\Music_Portal_WebApi\\Music_Portal_WebApi\\wwwroot\\",
       "BasePath": "_content/Music_Portal_WebApi",
-      "RelativePath": "music/Rock/Test/ Harley-Davidson.mp3",
+      "RelativePath": "Music/Rock/Test/Harley-Davidson.mp3",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -413,7 +413,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\music\\Rock\\Test\\ Harley-Davidson.mp3"
+      "OriginalItemSpec": "wwwroot\\Music\\Rock\\Test\\Harley-Davidson.mp3"
     }
   ]
 }

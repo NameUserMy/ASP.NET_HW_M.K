@@ -21,7 +21,7 @@ class Button {
 
     MusicMenu(buttonIndex) {
 
-        console.log('-->>' + buttonIndex);
+       
         pages.GetStaticPage(this.#musicMenu[buttonIndex]);
         switch (buttonIndex) {
 
@@ -36,7 +36,7 @@ class Button {
                 pages.EditGenrePage("/api/Genre");
                 break;
             case 4:
-                pages.EditGenrePage("/api/Track");
+                pages.EditTrack("/api/Track");
                 break;
             case 5:
                 pages.EditPerformerPage("/api/Performers");

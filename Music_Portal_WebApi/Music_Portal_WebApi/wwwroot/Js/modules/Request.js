@@ -127,7 +127,7 @@ class RequestApi {
 
 
 
-    }
+    };
 
 
     AddTrack(urlTrack) {
@@ -173,6 +173,68 @@ class RequestApi {
 
 
     }
+    UpdateTrack(url,id, input) {
+
+        const headers = {
+            "Content-Type": "application/json;charset=UTF-8"
+        }
+        let form = new FormData();
+
+        form.append("Title", input);
+        form.append("Id", id);
+        fetch(url, {
+            method: 'PUT',
+            headers: headers,
+            body: JSON.stringify(Object.fromEntries(form)),
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
+
+
+    };
+    DeleteTrack(url) {
+
+        const headers = {
+            "Content-Type": "application/json"
+        }
+        fetch(url, {
+            method: 'Delete',
+            headers: headers,
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
+
+    }
 
     AddGenre(url) {
 
@@ -207,6 +269,69 @@ class RequestApi {
         });
 
 
+
+    }
+    UpdateGenre(url,id,input) {
+
+        const headers = {
+            "Content-Type": "application/json;charset=UTF-8"
+        }
+        let form = new FormData();
+
+        form.append("Title", input);
+        form.append("Id", id);
+        
+        fetch(url, {
+            method: 'PUT',
+            headers: headers,
+            body: JSON.stringify(Object.fromEntries(form)),
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
+
+
+    };
+    DeleteGenre(url) {
+
+        const headers = {
+            "Content-Type": "application/json"
+        }
+        fetch(url, {
+            method: 'Delete',
+            headers: headers,
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
 
     }
 
@@ -249,10 +374,76 @@ class RequestApi {
 
 
     }
+    DeletePerformer(url) {
+
+        const headers = {
+            "Content-Type": "application/json"
+        }
+        fetch(url, {
+            method: 'Delete',
+            headers: headers,
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
+
+
+
+    }
+    UpdatePerformer(url,id, input) {
+
+        const headers = {
+            "Content-Type": "application/json;charset=UTF-8"
+        }
+        let form = new FormData();
+        form.append("Name", input);
+        form.append("Id", id);
+        fetch(url, {
+            method: 'PUT',
+            headers: headers,
+            body: JSON.stringify(Object.fromEntries(form)),
+
+        }).then(response => {
+
+            if (response.ok) {
+
+                console.log(response.status)
+
+            } else {
+                return response.json().then(error => {
+
+                    const e = new error("Ex...");
+                    e.data = error;
+
+                });
+
+            }
+
+        });
+
+
+    }
 
 
 
 
-}
+   
+
+
+};
 
 export default { RequestApi }

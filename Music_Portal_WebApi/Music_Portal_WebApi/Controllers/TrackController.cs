@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Music_Portal_WebApi.Services;
 using MusicPortal.BLL.DTO;
 using MusicPortal.BLL.Interfaces;
 
@@ -11,13 +12,15 @@ namespace Music_Portal_WebApi.Controllers
     {
         private IMusicCradService? _MusicCrud;
         private IWebHostEnvironment? _environment;
-        private ILogger<TrackController> _logger;
-        public TrackController(IMusicCradService music, IWebHostEnvironment? environment, ILogger<TrackController> logger)
+        private ChangeFileNameService? _changeFileNameService;
+        private ILogger<TrackController>? _logger;
+        public TrackController(IMusicCradService music, IWebHostEnvironment? environment, ChangeFileNameService changeFileName, ILogger<TrackController> logger)
         {
 
 
             _MusicCrud = music;
             _environment = environment;
+            _changeFileNameService = changeFileName;
             _logger = logger;
         }
         [HttpGet]
@@ -86,7 +89,16 @@ namespace Music_Portal_WebApi.Controllers
 
                 return BadRequest(ModelState);
             }
+
+          
+            var oldName = await _MusicCrud.GetTrackByIdAsync(addTrack.Id);
+            _changeFileNameService.ChangeFileNameAsync(oldName.Title, addTrack.Title);
+            
+            
+            
+            
             await _MusicCrud?.UpdateTrackAsync(addTrack);
+
             return Ok(addTrack);
         }
         [HttpDelete("{id}")]

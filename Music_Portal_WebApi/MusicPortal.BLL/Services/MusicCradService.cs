@@ -101,7 +101,7 @@ namespace MusicPortal.BLL.Services
         public async Task<TrackDTO> GetTrackByIdAsync(int id)
         {
             var track = await DB.MusicCrudRepository.GetTrackByIdAsync(id);
-            return new TrackDTO() {Title=track.Title};
+            return new TrackDTO() {Title= track.Title};
         }
         public Task<IEnumerable<SourceTrack>> GetAllSrcTrackAsync()
         {
@@ -160,4 +160,6 @@ namespace MusicPortal.BLL.Services
       
         #endregion
     }
+
+
 }
